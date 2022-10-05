@@ -6,9 +6,9 @@ import avatarUsuario from "./avatar.svg";
 export default function Cabecalho() {
   return (
     <header className={estilos.cabecalho}>
-      <div className={estilos.cabecalho__container}>
+      <div className={estilos.container}>
         <Logo />
-        <div className={estilos.cabecalho__usuario}>
+        <div className={estilos.usuario}>
           <p>Joana Fonseca Gomes</p>
           <img src={avatarUsuario} alt="Ícone de um avatar de usuário" />
         </div>
