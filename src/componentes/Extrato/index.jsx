@@ -4,7 +4,7 @@ import extrato from "../../db.json";
 
 export default function Extrato() {
   return (
-    <div className={estilos.container}>
+    <section className={estilos.container}>
       <h2 className={estilos.titulo}>Extrato</h2>
       {extrato.map((item, indice) => {
         return (
@@ -37,6 +37,6 @@ export default function Extrato() {
           </div>
         );
       })}
-    </div>
+    </section>
   );
 }

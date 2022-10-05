@@ -10,7 +10,7 @@ const listaMenu = [
 
 export default function Menu() {
   return (
-    <ul className={estilos.menu}>
+    <nav className={estilos.menu}>
       {listaMenu.map((item, indice) => {
         return (
           <li key={item} className={estilos.item}>
@@ -23,6 +23,6 @@ export default function Menu() {
           </li>
         );
       })}
-    </ul>
+    </nav>
   );
 }
