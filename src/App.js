@@ -5,7 +5,7 @@ import Cabecalho from "./componentes/Cabecalho";
 import Extrato from "./componentes/Extrato";
 import Menu from "./componentes/Menu";
 import Principal from "./componentes/Principal";
-import Transacao from "./componentes/Transaçao";
+import NovaTransacao from "./componentes/NovaTransacao";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Menu />
         <div className={estilos.wrapper}>
           <Principal />
-          <Transacao />
+          <NovaTransacao />
         </div>
         <Extrato />
       </main>
