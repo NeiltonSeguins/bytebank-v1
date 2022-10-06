@@ -1,21 +1,20 @@
-const url = "http://localhost:8080";
-const transacoes = `${url}/transacoes`;
-const conta = `${url}/conta`;
+const url = "http://localhost:3004";
 
-const conectaApi = async (url, opcoes = {}) => {
-  const res = await fetch(url, opcoes);
-  if (res.ok) {
-    const dados = res.json();
+const buscarDados = async (url, options = {}) => {
+  const resposta = await fetch(url, options);
+  if (resposta.ok) {
+    const dados = resposta.json();
     return dados;
   }
-  throw new Error(res);
+  throw new Error(resposta);
 };
 
-const listaTransacoes = async () => await conectaApi(transacoes);
-const buscaSaldo = () => conectaApi(conta).then((dados) => dados.saldo);
+const listaTransacoes = async () => await buscarDados(`${url}/transacoes/`);
+const buscaSaldo = () =>
+  buscarDados(`${url}/conta/`).then((dados) => dados.saldo);
 
 const atualizaTransacoes = (dados) =>
-  conectaApi(transacoes, {
+  buscarDados(`${url}/transacoes/`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -24,7 +23,7 @@ const atualizaTransacoes = (dados) =>
   });
 
 const atualizaSaldo = (saldo) =>
-  conectaApi(conta, {
+  buscarDados(`${url}/conta/`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
