@@ -15,7 +15,7 @@ const diasDaSemana = [
   "Sábado",
 ];
 
-export default function Principal() {
+export default function Principal({ saldo }) {
   return (
     <section className={estilos.container}>
       <div className={estilos.detalhe__superior}></div>
@@ -25,7 +25,7 @@ export default function Principal() {
       }, ${hoje.toLocaleDateString()}`}</p>
       <div className={estilos.wrapper}>
         <Ilustracao className={estilos.ilustracao} width="230" height="185" />
-        <Saldo />
+        <Saldo saldo={saldo} />
       </div>
       <div className={estilos.detalhe__inferior}></div>
     </section>

@@ -2,7 +2,7 @@ import React from "react";
 import estilos from "./Saldo.module.css";
 import { ReactComponent as Icone } from "./icone-olho.svg";
 
-export default function Saldo() {
+export default function Saldo({ saldo }) {
   return (
     <div className={estilos.container}>
       <div className={estilos.wrapper}>
@@ -11,7 +11,7 @@ export default function Saldo() {
       </div>
       <div className={estilos.divisor}></div>
       <p className={estilos.conta}>Conta corrente</p>
-      <p className={estilos.valor}>R$ 15.000,00</p>
+      <p className={estilos.valor}>{`R$ ${saldo}`}</p>
     </div>
   );
 }

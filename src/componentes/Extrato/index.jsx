@@ -1,15 +1,28 @@
 import React from "react";
 import estilos from "./Extrato.module.css";
-import extrato from "../../db.json";
-import Transacoes from "./Transacoes";
 
-export default function Extrato() {
+export default function Extrato({ transacoes }) {
   return (
     <section className={estilos.container}>
       <h2 className={estilos.titulo}>Extrato</h2>
-      {extrato.map((item, indice) => {
-        return <Transacoes key={indice} item={item} />;
-      })}
+      <ul>
+        {transacoes.map((item, indice) => {
+          return (
+            <li key={indice}>
+              <div className={estilos.item}>
+                <p>{item.transacao}</p>
+                <span>{item.data}</span>
+              </div>
+              {item.tipoTransacao === "Transferência" ? (
+                <h3 className={estilos.valor}>{`- R$ ${item.valor}`}</h3>
+              ) : (
+                <h3 className={estilos.valor}>{` R$ ${item.valor}`}</h3>
+              )}
+              <div className={estilos.divisor}></div>
+            </li>
+          );
+        })}
+      </ul>
     </section>
   );
 }

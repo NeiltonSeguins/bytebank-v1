@@ -1,0 +1,10 @@
+{
+  "transacoes": [
+    {
+      "id": 1,
+      "transacao": "Transferência",
+      "valor": 36,
+      "data": "04/09/2022"
+    }
+  ]
+}
