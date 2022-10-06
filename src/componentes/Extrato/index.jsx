@@ -9,6 +9,7 @@ export default function Extrato({ transacoes }) {
         {transacoes.map((item, indice) => {
           return (
             <li key={indice}>
+              <p className={estilos.mes}>{item.mes}</p>
               <div className={estilos.item}>
                 <p>{item.transacao}</p>
                 <span>{item.data}</span>

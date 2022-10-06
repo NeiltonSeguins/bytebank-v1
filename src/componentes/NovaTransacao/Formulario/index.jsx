@@ -13,7 +13,14 @@ export default function Formulario({ realizarTransacao }) {
   function handleSubmit(e) {
     e.preventDefault();
     const dataTransacao = new Date().toLocaleDateString("pt-br");
-    realizarTransacao({ ...valor, data: dataTransacao });
+    const mesTransacao = new Date().toLocaleDateString("pt-br", {
+      month: "long",
+    });
+    realizarTransacao({
+      ...valor,
+      data: dataTransacao,
+      mes: mesTransacao[0].toUpperCase() + mesTransacao.substring(1),
+    });
   }
 
   return (

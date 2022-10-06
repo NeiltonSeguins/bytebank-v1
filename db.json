@@ -1,34 +1,35 @@
 {
+  "conta": {
+    "saldo": 1021
+  },
   "transacoes": [
     {
       "transacao": "Depósito",
-      "valor": "100",
+      "valor": "50",
       "data": "06/10/2022",
+      "mes": "Outubro",
       "id": 1
     },
     {
       "transacao": "Depósito",
-      "valor": "100",
+      "valor": "50",
       "data": "06/10/2022",
+      "mes": "Outubro",
       "id": 2
     },
     {
-      "transacao": "Depósito",
-      "valor": "100",
+      "transacao": "Transferência",
+      "valor": "48",
       "data": "06/10/2022",
+      "mes": "Outubro",
       "id": 3
     },
     {
       "transacao": "Transferência",
-      "valor": "100",
+      "valor": "48",
       "data": "06/10/2022",
+      "mes": "Outubro",
       "id": 4
-    },
-    {
-      "transacao": "Transferência",
-      "valor": "50",
-      "data": "06/10/2022",
-      "id": 5
     }
   ]
 }

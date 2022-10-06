@@ -26,15 +26,21 @@ function App() {
     setTransacoes(transacoes);
   }
 
+  async function obterSaldo() {
+    setSaldo(await api.buscaSaldo());
+  }
+
   function realizarTransacao(valores) {
     const novoSaldo = calculaNovoSaldo(valores, saldo);
+    api.atualizaSaldo(novoSaldo).catch((error) => console.log(error));
     api.atualizaTransacoes(valores).catch((error) => console.error(error));
-    
+
     setSaldo(novoSaldo);
     setTransacoes([valores]);
   }
 
   useEffect(() => {
+    obterSaldo();
     carregaTransacoes();
   }, [saldo]);
 
