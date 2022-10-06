@@ -1,8 +1,8 @@
 const url = "http://localhost:3001";
 const transacoes = `${url}/transacoes`;
 
-const conectaApi = async (url) => {
-  const res = await fetch(url);
+const conectaApi = async (url, opcoes = {}) => {
+  const res = await fetch(url, opcoes);
   if (res.ok) {
     const dados = res.json();
     return dados;

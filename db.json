@@ -1,10 +1,34 @@
 {
   "transacoes": [
     {
-      "id": 1,
+      "transacao": "Depósito",
+      "valor": "100",
+      "data": "06/10/2022",
+      "id": 1
+    },
+    {
+      "transacao": "Depósito",
+      "valor": "100",
+      "data": "06/10/2022",
+      "id": 2
+    },
+    {
+      "transacao": "Depósito",
+      "valor": "100",
+      "data": "06/10/2022",
+      "id": 3
+    },
+    {
       "transacao": "Transferência",
-      "valor": 36,
-      "data": "04/09/2022"
+      "valor": "100",
+      "data": "06/10/2022",
+      "id": 4
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "50",
+      "data": "06/10/2022",
+      "id": 5
     }
   ]
 }

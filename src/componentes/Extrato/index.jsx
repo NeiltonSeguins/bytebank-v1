@@ -13,7 +13,7 @@ export default function Extrato({ transacoes }) {
                 <p>{item.transacao}</p>
                 <span>{item.data}</span>
               </div>
-              {item.tipoTransacao === "Transferência" ? (
+              {item.transacao === "Transferência" ? (
                 <h3 className={estilos.valor}>{`- R$ ${item.valor}`}</h3>
               ) : (
                 <h3 className={estilos.valor}>{` R$ ${item.valor}`}</h3>
