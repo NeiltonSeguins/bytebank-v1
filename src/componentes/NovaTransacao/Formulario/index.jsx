@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import estilos from "./Formulario.module.css";
 
 export default function Formulario({ realizarTransacao }) {
-  const [valor, setValor] = useState({ transacao: "", valor: 0 });
+  const [valor, setValor] = useState({ transacao: "", valor: "" });
 
   function handleChange(e) {
     const { name, value } = e.target;
@@ -21,6 +21,7 @@ export default function Formulario({ realizarTransacao }) {
       data: dataTransacao,
       mes: mesTransacao[0].toUpperCase() + mesTransacao.substring(1),
     });
+    setValor({ transacao: "", valor: "" });
   }
 
   return (
@@ -43,6 +44,7 @@ export default function Formulario({ realizarTransacao }) {
         onChange={handleChange}
         className={estilos.campo__valor}
         type="number"
+        value={valor.valor}
         name="valor"
         id="valor"
         placeholder="Digite um valor"
