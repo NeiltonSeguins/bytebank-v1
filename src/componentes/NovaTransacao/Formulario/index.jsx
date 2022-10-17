@@ -21,11 +21,14 @@ export default function Formulario({ realizarTransacao }) {
       data: dataTransacao,
       mes: mesTransacao[0].toUpperCase() + mesTransacao.substring(1),
     });
-    setValor({ transacao: "", valor: "" });
+    setValor({ ...valor, valor: "" });
   }
 
   return (
     <form className={estilos.formulario} onSubmit={handleSubmit}>
+      <label className={estilos.legenda__opcoes} htmlFor="transacao">
+        Nova Transação
+      </label>
       <select
         className={estilos.grupo__opcoes}
         onChange={handleChange}

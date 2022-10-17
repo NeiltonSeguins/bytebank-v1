@@ -20,12 +20,6 @@
   height: 100%;
 }
 
-.titulo {
-  font-size: 20px;
-  font-weight: 700;
-  color: #111111;
-}
-
 .detalhe__superior {
   background-image: url(./detalhe-sup.svg);
   background-repeat: no-repeat;

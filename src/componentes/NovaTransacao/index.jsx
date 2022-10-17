@@ -8,7 +8,6 @@ export default function Transacao({ realizarTransacao }) {
     <section className={estilos.container}>
       <div className={estilos.detalhe__superior}></div>
       <div className={estilos.wrapper}>
-        <h2 className={estilos.titulo}>Nova transação</h2>
         <Formulario realizarTransacao={realizarTransacao} />
       </div>
       <Ilustracao height="229" width="359" />
