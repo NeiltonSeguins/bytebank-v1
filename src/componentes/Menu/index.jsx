@@ -18,7 +18,7 @@ export default function Menu() {
               {item}
             </a>
             {indice !== listaMenu.length - 1 && (
-              <div className={estilos.divisor}></div>
+              <div className={estilos.divisor} />
             )}
           </div>
         );
