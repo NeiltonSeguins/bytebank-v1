@@ -9,12 +9,7 @@ export default function Extrato({ transacoes }) {
       <ul>
         {transacoes.map((transacao, indice) => {
           return (
-            <Transacoes
-              key={indice}
-              transacao={transacao}
-              indice={indice}
-              estilos={estilos}
-            />
+            <Transacoes key={indice} transacao={transacao} estilos={estilos} />
           );
         })}
       </ul>

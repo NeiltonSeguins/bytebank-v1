@@ -9,7 +9,7 @@ export default function Saldo({ saldo }) {
         <h2 className={estilos.saldo}>Saldo</h2>
         <Icone />
       </div>
-      <div className={estilos.divisor}></div>
+      <div className={estilos.divisor} />
       <p className={estilos.conta}>Conta corrente</p>
       <p className={estilos.valor}>{`R$ ${saldo}`}</p>
     </div>
