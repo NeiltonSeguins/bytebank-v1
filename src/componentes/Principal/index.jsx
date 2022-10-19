@@ -20,7 +20,7 @@ export default function Principal({ saldo }) {
     <section className={estilos.container}>
       <div className={estilos.detalhe__superior} />
       <h1 className={estilos.titulo}>Olá, Joana :)!</h1>
-      <p className={estilos.data}>{`${
+      <p data-testid="data-atual" className={estilos.data}>{`${
         diasDaSemana[hoje.getDay()]
       }, ${hoje.toLocaleDateString()}`}</p>
       <div className={estilos.wrapper}>
