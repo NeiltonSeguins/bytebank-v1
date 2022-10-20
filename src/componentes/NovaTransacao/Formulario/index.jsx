@@ -28,7 +28,6 @@ export default function Formulario({ realizarTransacao }) {
     <form className={estilos.formulario} onSubmit={handleSubmit}>
       <h3 className={estilos.legenda__opcoes}>Nova Transação</h3>
       <select
-        multiple
         className={estilos.grupo__opcoes}
         onChange={handleChange}
         name="transacao"
