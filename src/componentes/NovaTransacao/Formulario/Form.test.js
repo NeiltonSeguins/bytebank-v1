@@ -5,17 +5,14 @@ import Formulario from './index';
 describe('Componente <Formulario />', () => {
   test('Deve ser possível selecionar uma opção do elemento <select/>', () => {
     render(<Formulario />);
-    const select = screen.getByRole('listbox');
-    userEvent.selectOptions(select, ['Depósito', 'Transferência']);
+    const select = screen.getByRole('combobox');
+    userEvent.selectOptions(select, ['Depósito']);
 
     expect(
       screen.getByRole('option', { name: 'Selecione um tipo de transação' })
         .selected
     ).toBe(false);
     expect(screen.getByRole('option', { name: 'Depósito' }).selected).toBe(
-      true
-    );
-    expect(screen.getByRole('option', { name: 'Transferência' }).selected).toBe(
       true
     );
   });
