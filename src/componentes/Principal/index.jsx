@@ -22,7 +22,7 @@ export default function Principal({ saldo }) {
       <h1 className={estilos.titulo}>Olá, Joana :)!</h1>
       <p data-testid="data-atual" className={estilos.data}>{`${
         diasDaSemana[hoje.getDay()]
-      }, ${hoje.toLocaleDateString()}`}</p>
+      }, ${hoje.toLocaleDateString('pt-BR')}`}</p>
       <div className={estilos.wrapper}>
         <Ilustracao className={estilos.ilustracao} width="230" height="185" />
         <Saldo saldo={saldo} />
