@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import estilos from './App.module.css';
-import { calculaNovoSaldo } from './utils';
+import estilos from '../App.module.css';
+import { calculaNovoSaldo } from '../utils';
 
-import Cabecalho from './componentes/Cabecalho';
-import Extrato from './componentes/Extrato';
-import Menu from './componentes/Menu';
-import Principal from './componentes/Principal';
-import NovaTransacao from './componentes/NovaTransacao';
+import Cabecalho from '../componentes/Cabecalho';
+import Extrato from '../componentes/Extrato';
+import Menu from '../componentes/Menu';
+import Principal from '../componentes/Principal';
+import NovaTransacao from '../componentes/NovaTransacao';
 
-function App() {
+export default function App() {
   const [saldo, setSaldo] = useState(1000);
   const [transacoes, setTransacoes] = useState([]);
 
@@ -32,5 +32,3 @@ function App() {
     </>
   );
 }
-
-export default App;
