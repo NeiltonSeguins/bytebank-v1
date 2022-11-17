@@ -14,7 +14,7 @@ test('rendering a component that uses useLocation', () => {
       <Cartoes />
     </MemoryRouter>
   );
-  expect(screen.getByText('Cartoes')).toHaveTextContent('Cartoes');
+  expect(screen.getByText('Cartões')).toHaveTextContent('Cartões');
 });
 
 test('renderiza um componente que usa o useLocation', () => {

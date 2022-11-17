@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import estilos from './Menu.module.css';
 
 const listaMenu = [
@@ -15,9 +16,9 @@ export default function Menu() {
       {listaMenu.map((item, indice) => {
         return (
           <div key={item.href} className={estilos.item}>
-            <a href={item.href} className={estilos.link}>
+            <Link to={item.href} className={estilos.link}>
               {item.link}
-            </a>
+            </Link>
             {indice !== listaMenu.length - 1 && (
               <div className={estilos.divisor} />
             )}
