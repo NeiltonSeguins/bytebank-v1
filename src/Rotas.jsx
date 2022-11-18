@@ -5,13 +5,11 @@ import App from './rotas/App';
 
 export function Rotas() {
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/cartoes" element={<Cartoes />} />
-        <Route path="/investimentos" element={<Investimentos />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/cartoes" element={<Cartoes />} />
+      <Route path="/investimentos" element={<Investimentos />} />
+    </Routes>
   );
 }
 

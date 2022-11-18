@@ -1,0 +1,56 @@
+{
+  "transacoes": [
+    {
+      "transacao": "Depósito",
+      "valor": "150",
+      "data": "18/11/2022",
+      "mes": "Novembro",
+      "id": 1
+    },
+    {
+      "transacao": "Depósito",
+      "valor": "200",
+      "data": "18/11/2022",
+      "mes": "Novembro",
+      "id": 2
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "500",
+      "data": "18/11/2022",
+      "mes": "Novembro",
+      "id": 3
+    },
+    {
+      "transacao": "Depósito",
+      "valor": "500",
+      "data": "18/11/2022",
+      "mes": "Novembro",
+      "id": 4
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "598",
+      "data": "18/11/2022",
+      "mes": "Novembro",
+      "id": 5
+    },
+    {
+      "transacao": "Depósito",
+      "valor": "589",
+      "data": "18/11/2022",
+      "mes": "Novembro",
+      "id": 6
+    },
+    {
+      "transacao": "Depósito",
+      "valor": "850",
+      "data": "18/11/2022",
+      "mes": "Novembro",
+      "id": 7
+    }
+  ],
+  "saldo": {
+    "valor": 2041
+  }
+}
