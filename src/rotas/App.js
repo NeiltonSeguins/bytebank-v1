@@ -14,30 +14,16 @@ export default function App() {
   const [transacoes, setTransacoes] = useState([]);
 
   useEffect(() => {
-    api
-      .get('/transacoes')
-      .then((resp) => setTransacoes(resp.data))
-      .catch((err) => console.log(err));
-
-    api
-      .get('/saldo')
-      .then((resp) => setSaldo(resp.data.valor))
-      .catch((err) => console.log(err));
+    api.buscaSaldo(setSaldo);
+    api.buscaTransacoes(setTransacoes);
   }, []);
 
   function realizarTransacao(valores) {
     const novoSaldo = calculaNovoSaldo(valores, saldo);
     setSaldo(novoSaldo);
+    api.atualizaSaldo(novoSaldo);
     setTransacoes([...transacoes, valores]);
-    api
-      .post('/transacoes', valores)
-      .then((resp) => console.log(resp.status))
-      .catch((err) => console.log(err));
-
-    api
-      .put('/saldo', { valor: novoSaldo })
-      .then((resp) => console.log(resp.status))
-      .catch((err) => console.log(err));
+    api.salvaTransacao(valores);
   }
 
   return (
