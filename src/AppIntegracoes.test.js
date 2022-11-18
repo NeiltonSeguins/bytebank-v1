@@ -14,6 +14,9 @@ describe('Realizando requisições para API', () => {
     transacao.forEach((el) => {
       expect(el).toBeInTheDocument();
     });
+    const listaTransacoes =
+      screen.getByTestId('lista-transacoes').children.length;
+    expect(listaTransacoes).toBe(3);
     expect(transacoes).toHaveLength(3);
   });
 });
