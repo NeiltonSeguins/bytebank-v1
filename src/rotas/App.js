@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import estilos from '../App.module.css';
 import { calculaNovoSaldo } from '../utils';
-import api from '../services/api';
+import { buscaTransacoes, salvaTransacao } from '../services/transacoes';
+import { buscaSaldo, atualizaSaldo } from '../services/saldo';
 
 import Cabecalho from '../componentes/Cabecalho';
 import Extrato from '../componentes/Extrato';
@@ -13,17 +14,26 @@ export default function App() {
   const [saldo, setSaldo] = useState(0);
   const [transacoes, setTransacoes] = useState([]);
 
+  async function listaTransacoes() {
+    const transacoes = await buscaTransacoes();
+    setTransacoes(transacoes);
+  }
+
+  async function obtemSaldo() {
+    setSaldo(await buscaSaldo());
+  }
+
   useEffect(() => {
-    api.buscaSaldo(setSaldo);
-    api.buscaTransacoes(setTransacoes);
-  }, []);
+    listaTransacoes();
+    obtemSaldo();
+  }, [saldo]);
 
   function realizarTransacao(valores) {
     const novoSaldo = calculaNovoSaldo(valores, saldo);
     setSaldo(novoSaldo);
-    api.atualizaSaldo(novoSaldo);
+    atualizaSaldo(novoSaldo);
     setTransacoes([...transacoes, valores]);
-    api.salvaTransacao(valores);
+    salvaTransacao(valores);
   }
 
   return (
