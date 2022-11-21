@@ -67,7 +67,6 @@ describe('Requisições para API', () => {
     api.post.mockImplementation(() => mockRequisicaoPost());
     const status = await salvaTransacao(mockTransacao[0]);
 
-    console.log(status);
     expect(status).toBe(201);
     expect(api.post).toHaveBeenCalledWith('/transacoes', mockTransacao[0]);
     expect(api.post).toHaveBeenCalledTimes(1);
