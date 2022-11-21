@@ -10,8 +10,10 @@ export async function buscaTransacoes() {
 }
 
 export async function salvaTransacao(novaTransacao) {
-  api
-    .post('/transacoes', novaTransacao)
-    .then((resp) => console.log(resp.status))
-    .catch((err) => console.log(err));
+  try {
+    const resp = await api.post('/transacoes', novaTransacao);
+    return resp.status;
+  } catch (err) {
+    return 'Erro na requisição';
+  }
 }

@@ -1,5 +1,5 @@
 import api from './services/api';
-import { buscaTransacoes } from './services/transacoes';
+import { buscaTransacoes, salvaTransacao } from './services/transacoes';
 
 jest.mock('./services/api');
 
@@ -15,7 +15,7 @@ const mockTransacao = [
 ];
 
 // Função que simula uma chamada e retorno a api
-const mockRequisicao = (retorno) => {
+const mockRequisicaoGet = (retorno) => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve({
@@ -26,7 +26,7 @@ const mockRequisicao = (retorno) => {
 };
 
 // Função que simula o retorno de uma chamada que deu erro em uma api
-const mockRequisicaoErro = () => {
+const mockRequisicaoErroGet = () => {
   return new Promise((_, reject) => {
     setTimeout(() => {
       reject();
@@ -34,9 +34,19 @@ const mockRequisicaoErro = () => {
   });
 };
 
-describe('Realizando requisições para API', () => {
+const mockRequisicaoPost = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve({
+        status: 201,
+      });
+    }, 200);
+  });
+};
+
+describe('Requisições para API', () => {
   test('Deve exibir uma lista de transações', async () => {
-    api.get.mockImplementation(() => mockRequisicao(mockTransacao));
+    api.get.mockImplementation(() => mockRequisicaoGet(mockTransacao));
     const transacoes = await buscaTransacoes();
 
     expect(transacoes).toEqual(mockTransacao);
@@ -45,11 +55,21 @@ describe('Realizando requisições para API', () => {
   });
 
   test('Deve retornar uma lista vazia quando a requisição falhar', async () => {
-    api.get.mockImplementation(() => mockRequisicaoErro());
+    api.get.mockImplementation(() => mockRequisicaoErroGet());
     const transacoes = await buscaTransacoes();
 
     expect(transacoes).toEqual([]);
     expect(api.get).toHaveBeenCalledWith('/transacoes');
     expect(api.get).toHaveBeenCalledTimes(1);
+  });
+
+  test('Deve retornar um status 201 - (Created) após uma requisição POST', async () => {
+    api.post.mockImplementation(() => mockRequisicaoPost());
+    const status = await salvaTransacao(mockTransacao[0]);
+
+    console.log(status);
+    expect(status).toBe(201);
+    expect(api.post).toHaveBeenCalledWith('/transacoes', mockTransacao[0]);
+    expect(api.post).toHaveBeenCalledTimes(1);
   });
 });
