@@ -6,25 +6,27 @@ import '@testing-library/jest-dom';
 import { RotaAtual } from './Rotas';
 import Cartoes from './rotas/Cartoes/Cartoes';
 
-test('rendering a component that uses useLocation', () => {
-  const rota = '/cartoes';
+describe('Rotas da aplicação', () => {
+  test('Deve renderizar a página de rotas', () => {
+    const rota = '/cartoes';
 
-  render(
-    <MemoryRouter initialEntries={[rota]}>
-      <Cartoes />
-    </MemoryRouter>
-  );
-  expect(screen.getByText('Cartões')).toHaveTextContent('Cartões');
-});
+    render(
+      <MemoryRouter initialEntries={[rota]}>
+        <Cartoes />
+      </MemoryRouter>
+    );
+    expect(screen.getByText('Cartões')).toHaveTextContent('Cartões');
+  });
 
-test('renderiza um componente que usa o useLocation', () => {
-  const rota = '/investimentos';
+  test('renderiza um componente que usa o useLocation', () => {
+    const rota = '/investimentos';
 
-  render(
-    <MemoryRouter initialEntries={[rota]}>
-      <RotaAtual />
-    </MemoryRouter>
-  );
+    render(
+      <MemoryRouter initialEntries={[rota]}>
+        <RotaAtual />
+      </MemoryRouter>
+    );
 
-  expect(screen.getByTestId('rota-atual')).toHaveTextContent(rota);
+    expect(screen.getByTestId('rota-atual')).toHaveTextContent(rota);
+  });
 });

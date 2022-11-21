@@ -13,7 +13,7 @@ export function Rotas() {
   );
 }
 
-// exemplo com useLocation
+// exemplo com useLocation - Talvez não entre na ementa
 export const RotaAtual = () => {
   const location = useLocation();
 
