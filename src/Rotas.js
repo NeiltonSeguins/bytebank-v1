@@ -1,7 +1,7 @@
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Cartoes from './rotas/Cartoes/Cartoes';
 import Investimentos from './rotas/Investimentos/Investimentos';
-import App from './rotas/App';
+import App from './App';
 
 export function Rotas() {
   return (
