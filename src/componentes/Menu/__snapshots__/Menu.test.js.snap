@@ -6,7 +6,7 @@ Array [
     class="link"
     href="/"
   >
-    Inicial
+    Início
   </a>,
   <a
     class="link"
@@ -16,21 +16,15 @@ Array [
   </a>,
   <a
     class="link"
-    href="/transferencias"
+    href="/servicos"
   >
-    Transferências
+    Serviços
   </a>,
   <a
     class="link"
     href="/investimentos"
   >
     Investimentos
-  </a>,
-  <a
-    class="link"
-    href="/outros-servicos"
-  >
-    Outros serviços
   </a>,
 ]
 `;

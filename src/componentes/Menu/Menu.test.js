@@ -4,14 +4,14 @@ import Menu from './index';
 
 test('Deve renderizar o link para a página inicial', () => {
   render(<Menu />, { wrapper: BrowserRouter });
-  const linkPaginaInicial = screen.getByText('Inicial');
+  const linkPaginaInicial = screen.getByText('Início');
   expect(linkPaginaInicial).toBeInTheDocument();
 });
 
 test('Deve renderizar uma lista com quatro links', () => {
   render(<Menu />, { wrapper: BrowserRouter });
   const linksPaginaInicial = screen.getAllByRole('link');
-  expect(linksPaginaInicial).toHaveLength(5);
+  expect(linksPaginaInicial).toHaveLength(4);
 });
 
 test('Não deve renderizar o link de Extrato', () => {

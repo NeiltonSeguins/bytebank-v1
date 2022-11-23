@@ -4,7 +4,7 @@ import { MemoryRouter } from 'react-router-dom';
 import React from 'react';
 import '@testing-library/jest-dom';
 import { RotaAtual } from './Rotas';
-import Cartoes from './rotas/Cartoes/Cartoes';
+import Cartoes from './componentes/Cartoes';
 
 describe('Rotas da aplicação', () => {
   test('Deve renderizar a página de rotas', () => {
