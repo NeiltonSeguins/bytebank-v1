@@ -24,7 +24,7 @@ export default function Principal({ saldo }) {
         diasDaSemana[hoje.getDay()]
       }, ${hoje.toLocaleDateString('pt-BR')}`}</p>
       <div className={estilos.wrapper}>
-        <Ilustracao className={estilos.ilustracao} width="230" height="185" />
+        <Ilustracao className={estilos.ilustracao} width="250" height="225" />
         <Saldo saldo={saldo} />
       </div>
       <div className={estilos.detalhe__inferior} />

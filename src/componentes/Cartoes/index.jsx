@@ -1,11 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import estilos from './Cartoes.module.css';
 
 export default function Cartoes() {
   return (
-    <div>
-      <h1>Cartões</h1>
-      <Link to="/">Ir para a página inicial</Link>
-    </div>
+    <section className={estilos.container}>
+      <div className={estilos.detalhe__superior} />
+      <h2>Meus cartões</h2>
+      <div className={estilos.detalhe__inferior} />
+    </section>
   );
 }

@@ -10,7 +10,7 @@ export default function Transacao({ realizarTransacao }) {
       <div className={estilos.wrapper}>
         <Formulario realizarTransacao={realizarTransacao} />
       </div>
-      <Ilustracao height="229" width="359" />
+      <Ilustracao height="229" width="459" />
       <div className={estilos.detalhe__inferior} />
     </section>
   );

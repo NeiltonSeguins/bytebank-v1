@@ -1,6 +1,7 @@
 import React from 'react';
 import estilos from './Servicos.module.css';
 import icones from './icones.json';
+import Icone from './Icone';
 
 export default function Servicos() {
   return (
@@ -8,12 +9,7 @@ export default function Servicos() {
       <div className={estilos.detalhe__superior} />
       <div className={estilos.wrapper}>
         {icones.map((icone) => {
-          return (
-            <div key={icone.servico} className={estilos.servicos}>
-              <img src={icone.imagem} alt={icone.servico} />
-              <h5>{icone.servico}</h5>
-            </div>
-          );
+          return <Icone key={icone.servico} estilos={estilos} icone={icone} />;
         })}
       </div>
       <div className={estilos.detalhe__inferior} />

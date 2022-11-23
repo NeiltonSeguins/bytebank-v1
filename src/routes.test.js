@@ -15,7 +15,7 @@ describe('Rotas da aplicação', () => {
         <Cartoes />
       </MemoryRouter>
     );
-    expect(screen.getByText('Cartões')).toHaveTextContent('Cartões');
+    expect(screen.getByText('Meus cartões')).toHaveTextContent('Meus cartões');
   });
 
   test('renderiza um componente que usa o useLocation', () => {
