@@ -3,7 +3,7 @@ import { MemoryRouter } from 'react-router-dom';
 
 import React from 'react';
 import '@testing-library/jest-dom';
-import { RotaAtual } from './Rotas';
+import { RotaAtual } from './rotas.js';
 import Cartoes from './componentes/Cartoes';
 
 describe('Rotas da aplicação', () => {
