@@ -3,7 +3,6 @@ import { MemoryRouter } from 'react-router-dom';
 
 import React from 'react';
 import '@testing-library/jest-dom';
-import { RotaAtual } from './rotas';
 import Cartoes from './componentes/Cartoes';
 
 describe('Rotas da aplicação', () => {
@@ -16,17 +15,5 @@ describe('Rotas da aplicação', () => {
       </MemoryRouter>
     );
     expect(screen.getByText('Meus cartões')).toHaveTextContent('Meus cartões');
-  });
-
-  test('renderiza um componente que usa o useLocation', () => {
-    const rota = '/investimentos';
-
-    render(
-      <MemoryRouter initialEntries={[rota]}>
-        <RotaAtual />
-      </MemoryRouter>
-    );
-
-    expect(screen.getByTestId('rota-atual')).toHaveTextContent(rota);
   });
 });

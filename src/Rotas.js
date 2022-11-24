@@ -18,10 +18,3 @@ export function Rotas() {
     </Routes>
   );
 }
-
-// exemplo com useLocation - Talvez não entre na ementa
-export const RotaAtual = () => {
-  const location = useLocation();
-
-  return <div data-testid="rota-atual">{location.pathname}</div>;
-};
