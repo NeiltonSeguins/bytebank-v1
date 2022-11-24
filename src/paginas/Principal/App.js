@@ -1,16 +1,16 @@
 import estilos from './App.module.css';
-import { calculaNovoSaldo } from './utils';
-import { salvaTransacao } from './services/transacoes';
-import { atualizaSaldo } from './services/saldo';
+import { calculaNovoSaldo } from '../../utils';
+import { salvaTransacao } from '../../services/transacoes';
+import { atualizaSaldo } from '../../services/saldo';
 
-import Cabecalho from './componentes/Cabecalho';
-import Extrato from './componentes/Extrato';
-import Menu from './componentes/Menu';
-import Principal from './componentes/Principal';
-import NovaTransacao from './componentes/NovaTransacao';
-import useListaTransacoes from './hooks/useListaTransacoes';
-import useSaldo from './hooks/useSaldo';
-import { Outlet, useLocation } from 'react-router-dom';
+import Cabecalho from '../../componentes/Cabecalho';
+import Extrato from '../../componentes/Extrato';
+import Menu from '../../componentes/Menu';
+import Principal from '../../componentes/Principal';
+import NovaTransacao from '../../componentes/NovaTransacao';
+import useListaTransacoes from '../../hooks/useListaTransacoes';
+import useSaldo from '../../hooks/useSaldo';
+import { Outlet, useLocation, useParams } from 'react-router-dom';
 
 export default function App() {
   const [saldo, setSaldo] = useSaldo();
@@ -29,7 +29,7 @@ export default function App() {
     <>
       <Cabecalho />
       <main className={estilos.container}>
-        <Menu />
+        <Menu path={location.pathname} />
         <div className={estilos.wrapper}>
           <Principal saldo={saldo} />
           {location.pathname === '/' && (
