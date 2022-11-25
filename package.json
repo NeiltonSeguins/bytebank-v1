@@ -17,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!axios)/\"",
+    "test:coverage": "npm run test -- --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "api": "json-server --watch db.json --port 8080",
     "format": "prettier --write \"src/**/*{.js,.jsx}\"",
