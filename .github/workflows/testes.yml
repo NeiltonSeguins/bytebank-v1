@@ -1,16 +1,19 @@
-name: Cobertura de testes
+name: Tests
+
 on:
-  pull_request:
-    branches:
-      - testes
+  push:
+    branches: [testes]
+
 jobs:
-  coverage:
+  build:
     runs-on: ubuntu-latest
+
     strategy:
       matrix:
         node-version: [16.x]
+
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v1
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
@@ -18,49 +21,14 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
 
-      - uses: ArtiomTr/jest-coverage-report-action@v2
-        id: coverage
+      - name: Test
+        run: npm test
+
+      - name: Monitor de cobertura
+        uses: slavcodev/coverage-monitor-action@v1
         with:
-          with:
-            test-script: npm test
-            github-token: ${{ secrets.GITHUB_TOKEN }}
-            threshold: 60
-            output: report-markdown
-
-      - uses: marocchino/sticky-pull-request-comment@v2
-        with:
-          message: ${{ steps.coverage.outputs.report }}
-# name: Tests
-
-# on:
-#   push:
-#     branches: [testes]
-
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest
-
-#     strategy:
-#       matrix:
-#         node-version: [16.x]
-
-#     steps:
-#       - uses: actions/checkout@v1
-
-#       - name: Use Node.js ${{ matrix.node-version }}
-#         uses: actions/setup-node@v3
-#         with:
-#           node-version: ${{ matrix.node-version }}
-#       - run: npm ci
-
-#       - name: Test
-#         run: npm test
-
-#       - name: Monitor de cobertura
-#         uses: slavcodev/coverage-monitor-action@v1
-#         with:
-#           github_token: ${{ secrets.GITHUB_TOKEN }}
-#           coverage_path: './coverage/clover.xml'
-#           threshold_alert: 60
-#           threshold_warning: 60
-#           threshold_metric: 'statements'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          coverage_path: './coverage/clover.xml'
+          threshold_alert: 60
+          threshold_warning: 60
+          threshold_metric: 'statements'
