@@ -19,16 +19,23 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm install -y
+      - run: npm ci
 
       - name: Test
         run: npm test
 
+      - name: Lint
+        run: npm run lint
+
       - name: Monitor de cobertura
-        uses: slavcodev/coverage-monitor-action@v1
+      - uses: 5monkeys/cobertura-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          coverage_path: '../../coverage/clover.xml'
-          threshold_alert: 60
-          threshold_warning: 60
-          threshold_metric: 'statements'
+          path: src/test.xml
+          minimum_coverage: 75
+        # uses: slavcodev/coverage-monitor-action@v1
+        # with:
+        #   github_token: ${{ secrets.GITHUB_TOKEN }}
+        #   coverage_path: '../../coverage/clover.xml'
+        #   threshold_alert: 60
+        #   threshold_warning: 60
+        #   threshold_metric: 'statements'
