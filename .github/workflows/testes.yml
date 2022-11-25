@@ -25,13 +25,4 @@ jobs:
         run: npm test
 
       - name: Test coverage
-        run: npm test:coverage
-
-      - name: Monitor de cobertura
-        uses: slavcodev/coverage-monitor-action@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          coverage_path: './coverage/clover.xml'
-          threshold_alert: 60
-          threshold_warning: 60
-          threshold_metric: 'statements'
+        run: npm run test:coverage
