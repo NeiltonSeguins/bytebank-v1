@@ -26,7 +26,7 @@
 }
 
 .detalhe__superior {
-  background-image: url(./detalhe-sup.svg);
+  background-image: url(../../assets/detalhe-sup.svg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
@@ -38,7 +38,7 @@
 }
 
 .detalhe__inferior {
-  background-image: url(./detalhe-inf.svg);
+  background-image: url(../../assets/detalhe-inf.svg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
