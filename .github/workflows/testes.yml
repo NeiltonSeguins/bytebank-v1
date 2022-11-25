@@ -24,13 +24,10 @@ jobs:
       - name: Test
         run: npm test
 
-      - name: Lint
-        run: npm run lint
-
       - name: Monitor de cobertura
         uses: 5monkeys/cobertura-action@master
         with:
-          path: src/test.xml
+          path: coverage/clover.xml
           minimum_coverage: 75
         # uses: slavcodev/coverage-monitor-action@v1
         # with:
