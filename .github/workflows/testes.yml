@@ -25,10 +25,15 @@ jobs:
         run: npm test
 
       - name: Monitor de cobertura
-        uses: slavcodev/coverage-monitor-action@v1
+        uses: bigmeech/gha-simple-coverage@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          coverage_path: '../../coverage/clover.xml'
-          threshold_alert: 60
-          threshold_warning: 60
-          threshold_metric: 'statements'
+          lcov-file-path: 'coverage/lcov.info'
+          fail-if-below: 70
+
+      #   uses: slavcodev/coverage-monitor-action@v1
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     coverage_path: '../../coverage/clover.xml'
+      #     threshold_alert: 60
+      #     threshold_warning: 60
+      #     threshold_metric: 'statements'
