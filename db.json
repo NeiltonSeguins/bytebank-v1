@@ -27,6 +27,13 @@
       "data": "25/11/2022",
       "mes": "Novembro",
       "id": 4
+    },
+    {
+      "transacao": "Depósito",
+      "valor": "100",
+      "data": "25/11/2022",
+      "mes": "Novembro",
+      "id": 5
     }
   ],
   "saldo": {
