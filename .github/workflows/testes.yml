@@ -2,7 +2,7 @@ name: Tests
 
 on:
   push:
-    branches: [ testes ]
+    branches: [testes]
 
 jobs:
   build:
@@ -28,7 +28,7 @@ jobs:
         uses: slavcodev/coverage-monitor-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          coverage_path: 'logs/clover.xml'
+          coverage_path: 'src/logs/coverage.html'
           threshold_alert: 60
           threshold_warning: 60
           threshold_metric: 'statements'
