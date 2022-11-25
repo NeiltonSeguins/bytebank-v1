@@ -28,7 +28,7 @@ jobs:
         run: npm run lint
 
       - name: Monitor de cobertura
-      - uses: 5monkeys/cobertura-action@master
+        uses: 5monkeys/cobertura-action@master
         with:
           path: src/test.xml
           minimum_coverage: 75
