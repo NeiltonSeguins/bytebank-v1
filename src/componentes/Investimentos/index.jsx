@@ -5,8 +5,8 @@ import estilos from './Investimentos.module.css';
 
 export default function Investimentos() {
   return (
-    <section className={estilos.container}>
-      <div className={estilos.detalhe__superior} />
+    <section className="container">
+      <div className="detalhe__superior" />
       <div className={estilos.wrapper}>
         <div className={estilos.investimentos}>
           <h2>Investimentos</h2>
@@ -25,7 +25,7 @@ export default function Investimentos() {
           <img src={grafico} alt="Gráfico dos investimentos" />
         </div>
       </div>
-      <div className={estilos.detalhe__inferior} />
+      <div className="detalhe__inferior" />
     </section>
   );
 }

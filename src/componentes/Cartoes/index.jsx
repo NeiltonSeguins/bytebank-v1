@@ -5,8 +5,8 @@ import cartaoDigital from './digital.svg';
 
 export default function Cartoes() {
   return (
-    <section className={estilos.container}>
-      <div className={estilos.detalhe__superior} />
+    <section className="container">
+      <div className="detalhe__superior" />
       <div className={estilos.wrapper}>
         <h2>Meus cartões</h2>
         <p>Cartão físico</p>
@@ -28,7 +28,7 @@ export default function Cartoes() {
           </div>
         </div>
       </div>
-      <div className={estilos.detalhe__inferior} />
+      <div className="detalhe__inferior" />
     </section>
   );
 }
