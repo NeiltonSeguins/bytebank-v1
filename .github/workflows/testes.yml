@@ -8,18 +8,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [16.x]
+    # strategy:
+    #   matrix:
+    #     node-version: [16.x]
 
     steps:
       - uses: actions/checkout@v3
 
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-      - run: npm ci
+      # - name: Use Node.js ${{ matrix.node-version }}
+      #   uses: actions/setup-node@v3
+      #   with:
+      #     node-version: ${{ matrix.node-version }}
+      # - run: npm ci
 
       - name: Test
         run: npm test
@@ -28,7 +28,7 @@ jobs:
         uses: slavcodev/coverage-monitor-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          coverage_path: 'clover.xml'
+          coverage_path: '../../coverage/clover.xml'
           threshold_alert: 60
           threshold_warning: 60
           threshold_metric: 'statements'
