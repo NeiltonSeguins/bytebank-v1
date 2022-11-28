@@ -36,6 +36,9 @@ export default function App() {
             <NovaTransacao realizarTransacao={realizarTransacao} />
           )}
           <Outlet />
+          <noscript data-testid="location-pathname">
+            {location.pathname}
+          </noscript>
         </div>
         <Extrato transacoes={transacoes} />
       </main>
