@@ -3,6 +3,7 @@ import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter, MemoryRouter, Routes, Route } from 'react-router-dom';
 import App from './paginas/Principal/App';
+import AppRoutes from './routes';
 import Cartoes from './componentes/Cartoes';
 
 describe('Rotas', () => {
@@ -38,5 +39,17 @@ describe('Rotas', () => {
     );
     const localizacaoAtual = screen.getByTestId('location-pathname');
     expect(localizacaoAtual).toHaveTextContent(rota);
+  });
+
+  test('Deve renderizar a página 404', () => {
+    const rota = '/extrato';
+
+    render(
+      <MemoryRouter initialEntries={[rota]}>
+        <AppRoutes />
+      </MemoryRouter>
+    );
+    const paginaErro = screen.getByTestId('pagina-404');
+    expect(paginaErro).toContainHTML('<h1>Ops! Não encontramos a página</h1>');
   });
 });

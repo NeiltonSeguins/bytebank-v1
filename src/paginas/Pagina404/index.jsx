@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function Pagina404() {
   return (
-    <div className={estilos.container}>
+    <div data-testid="pagina-404" className={estilos.container}>
       <h1>Ops! Não encontramos a página</h1>
       <p>
         E olha que exploramos o universo procurando por ela! Que tal voltar e
