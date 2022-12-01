@@ -23,6 +23,16 @@
     "format": "prettier --write \"src/**/*{.js,.jsx}\"",
     "lint": "eslint \"src/**/*{.js,.jsx}\" --quiet"
   },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": -10
+      }
+    }
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

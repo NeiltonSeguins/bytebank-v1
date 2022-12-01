@@ -20,13 +20,11 @@ describe('hooks/useListaTransacoes()', () => {
     const { result } = renderHook(() => useListaTransacoes());
 
     expect(result.current[0]).toEqual([]);
-    console.log(result.current[0]);
 
     await act(async () => {
       result.current[1]();
     });
 
-    console.log(result.current[0]);
     expect(result.current[0]).toEqual(mockTransacao);
   });
 });
