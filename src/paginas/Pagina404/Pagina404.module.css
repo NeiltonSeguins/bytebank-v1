@@ -1,7 +1,13 @@
+.conteudo {
+  height: 90vh;
+  background: linear-gradient(180deg, #47a138 0%, #ffffff 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .container {
-  width: 590px;
-  height: 100vh;
   margin: 0 auto;
+  padding-top: 72px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,6 +23,7 @@
   text-align: center;
   color: #000000;
   font-size: 1.025rem;
+  width: 588px;
 }
 
 .link {
