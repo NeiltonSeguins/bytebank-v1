@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  height: 224px;
+  background-color: #111111;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.caixa__rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  width: 1199px;
+  margin: 0 auto;
+}
+
+.coluna__infos {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.coluna__infos p {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.logo__bytebank {
+  height: 32px;
+  width: 145px;
+}
+
+.logos {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logos > img {
+  width: 32px;
+  height: 32px;
+}

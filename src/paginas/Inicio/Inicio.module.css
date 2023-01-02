@@ -1,0 +1,73 @@
+.container {
+  height: 90vh;
+  background: linear-gradient(180deg, #47a138 0%, #ffffff 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.conteudo {
+  width: 1199px;
+  margin: 0 auto;
+  padding-top: 72px;
+  padding-bottom: 152px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner h1 {
+  width: 434px;
+  height: 270px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.banner > img {
+  width: 660px;
+  height: 412px;
+}
+
+.vantagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.vantagens h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.vantagens__itens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-top: 1rem;
+}
+
+.vantagens__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vantagens__item p {
+  margin: 0.8rem 0;
+  text-align: center;
+  width: 279px;
+  color: #767676;
+}
+
+.vantagens__item img {
+  width: 73px;
+  height: 56px;
+  margin-bottom: 0.6rem;
+}
