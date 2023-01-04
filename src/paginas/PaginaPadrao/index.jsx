@@ -9,7 +9,7 @@ export default function PaginaPadrao() {
     <>
       <Cabecalho />
       <Outlet />
-      {location.pathname === '/' && <Rodape />}
+      {(location.pathname === '/' || location.pathname === '*') && <Rodape />}
     </>
   );
 }
