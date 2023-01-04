@@ -2,7 +2,7 @@ import React from 'react';
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter, MemoryRouter, Routes, Route } from 'react-router-dom';
-import App from './paginas/Principal/App';
+import App from './paginas/Home';
 import AppRoutes from './routes';
 import Cartoes from './componentes/Cartoes';
 

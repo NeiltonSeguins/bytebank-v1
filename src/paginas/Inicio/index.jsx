@@ -11,7 +11,6 @@ import dispositivo from '../../assets/dispositivo.svg';
 export default function Inicio() {
   return (
     <>
-      <Cabecalho />
       <div className={estilos.container}>
         <div className={estilos.conteudo}>
           <div className={estilos.banner}>
@@ -66,7 +65,6 @@ export default function Inicio() {
           </div>
         </div>
       </div>
-      <Rodape />
     </>
   );
 }
