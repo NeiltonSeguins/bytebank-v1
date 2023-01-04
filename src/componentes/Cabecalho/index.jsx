@@ -1,8 +1,9 @@
-import estilos from './Cabecalho.module.css';
-import { ReactComponent as Logo } from '../../assets/bytebank.svg';
-import avatarUsuario from '../../assets/avatar.svg';
 import { useState } from 'react';
+import { ReactComponent as Logo } from 'assets/bytebank.svg';
+import estilos from './Cabecalho.module.css';
+import avatarUsuario from 'assets/avatar.svg';
 import ModalCadastroUsuario from 'componentes/ModalCadastroUsuario';
+import ModalLoginUsuario from 'componentes/ModalLoginUsuario';
 import Botao from 'componentes/Botao';
 
 export default function Cabecalho() {
@@ -39,10 +40,10 @@ export default function Cabecalho() {
                 tipo="secundario"
                 onClick={() => setModalLoginAberta(true)}
               />
-              {/* <ModalCadastroUsuario
-                aberta={modalCadastroAberta}
+              <ModalLoginUsuario
+                aberta={modalLoginAberta}
                 aoFechar={() => setModalLoginAberta(false)}
-              /> */}
+              />
             </div>
           </>
         )}
