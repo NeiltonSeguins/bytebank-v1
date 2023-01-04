@@ -3,6 +3,7 @@ import estilos from './ModalCadastroUsuario.module.css';
 import { useState } from 'react';
 import api from 'services/api';
 import ilustracaoCadastro from './assets/ilustracao-cadastro.svg';
+import Botao from 'componentes/Botao';
 
 export default function ModalCadastroUsuario({ aberta, aoFechar }) {
   const [nome, setNome] = useState('');
@@ -46,13 +47,19 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
             src={ilustracaoCadastro}
             alt="pessoa ao lado de um notebook com cadeado"
           />
-          <p>Preencha os campos abaixo para criar sua conta corrente!</p>
-          <form>
-            <label htmlFor="nome">
+          <p className={estilos.modal__descricao}>
+            Preencha os campos abaixo para criar sua conta corrente!
+          </p>
+          <form onSubmit={onSubmit} className={estilos.modal__form}>
+            <label className={estilos.form__nome} htmlFor="nome">
               Nome
-              <input type="text" placeholder="Digite seu nome completo" />
+              <input
+                type="text"
+                id="nome"
+                placeholder="Digite seu nome completo"
+              />
             </label>
-            <label htmlFor="email">
+            <label className={estilos.form__email} htmlFor="email">
               E-mail
               <input
                 type="email"
@@ -61,19 +68,23 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
                 placeholder="Digite seu email"
               />
             </label>
-            <label htmlFor="senha">
+            <label className={estilos.form__senha} htmlFor="senha">
               Senha
-              <input type="password" placeholder="Digite sua senha" />
+              <input
+                type="password"
+                id="senha"
+                placeholder="Digite sua senha"
+              />
             </label>
+            <div className={estilos.termo__container}>
+              <input className={estilos.checkbox} type="checkbox" />
+              <p>
+                Li e estou ciente quanto às condições de tratamento dos meus
+                dados conforme descrito na Política de Privacidade do banco.
+              </p>
+            </div>
+            <Botao texto="Criar conta" />
           </form>
-          <div>
-            <input type="checkbox" />
-            <p>
-              Li e estou ciente quanto às condições de tratamento dos meus dados
-              conforme descrito na Política de Privacidade do banco.
-            </p>
-          </div>
-          <button>Criar conta</button>
         </div>
       </div>
     </>
