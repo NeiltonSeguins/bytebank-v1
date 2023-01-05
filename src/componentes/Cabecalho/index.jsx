@@ -1,23 +1,36 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { ReactComponent as Logo } from 'assets/bytebank.svg';
-import estilos from './Cabecalho.module.css';
-import avatarUsuario from 'assets/avatar.svg';
 import ModalCadastroUsuario from 'componentes/ModalCadastroUsuario';
 import ModalLoginUsuario from 'componentes/ModalLoginUsuario';
 import Botao from 'componentes/Botao';
+import avatarUsuario from 'assets/avatar.svg';
+import estilos from './Cabecalho.module.css';
 
 export default function Cabecalho() {
   const [modalCadastroAberta, setModalCadastroAberta] = useState(false);
   const [modalLoginAberta, setModalLoginAberta] = useState(false);
+  const [nomeUsuario, setNomeUsuario] = useState('');
+  let navigate = useNavigate();
 
-  const [usuarioEstaLogado, setUsuarioEstaLogado] = useState(false);
+  const token = sessionStorage.getItem('token');
+
+  const [usuarioEstaLogado, setUsuarioEstaLogado] = useState(token != null);
 
   const aoEfetuarLogin = () => {
+    setModalLoginAberta(false);
     setUsuarioEstaLogado(true);
+    navigate('/home');
   };
 
-  const efetuarLogout = () => {
+  const aoEfetuarLogout = () => {
     setUsuarioEstaLogado(false);
+    sessionStorage.removeItem('token');
+    navigate('/');
+  };
+
+  const salvaNomeUsuario = (nomeUsuario) => {
+    setNomeUsuario(nomeUsuario);
   };
 
   return (
@@ -43,14 +56,21 @@ export default function Cabecalho() {
               <ModalLoginUsuario
                 aberta={modalLoginAberta}
                 aoFechar={() => setModalLoginAberta(false)}
+                aoEfetuarLogin={aoEfetuarLogin}
+                salvaNomeUsuario={salvaNomeUsuario}
               />
             </div>
           </>
         )}
         {usuarioEstaLogado && (
           <div className={estilos.usuario}>
-            <p>Joana Fonseca Gomes</p>
+            <p>{`Olá, ${nomeUsuario}`}</p>
             <img src={avatarUsuario} alt="Ícone de um avatar de usuário" />
+            <Botao
+              texto="Sair"
+              tipo="secundario"
+              onClick={() => aoEfetuarLogout()}
+            />
           </div>
         )}
       </div>

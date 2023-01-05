@@ -19,7 +19,7 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
     };
 
     api
-      .post('public/cadastrar', usuario)
+      .post('/public/cadastrar', usuario)
       .then(() => {
         alert('Usuário cadastrado com sucesso!');
         setNome('');
@@ -27,7 +27,8 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
         setSenha('');
         aoFechar();
       })
-      .catch(() => {
+      .catch((erro) => {
+        console.log(erro);
         alert('Ops! Alguma coisa deu errado');
       });
   };
@@ -63,15 +64,17 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
                 type="text"
                 id="nome"
                 placeholder="Digite seu nome completo"
+                value={nome}
+                onChange={(event) => setNome(event.target.value)}
               />
             </label>
             <label htmlFor="email">
               E-mail
               <input
                 type="email"
-                name="email"
-                id="email"
                 placeholder="Digite seu email"
+                value={email}
+                onChange={(event) => setEmail(event.target.value)}
               />
             </label>
             <label htmlFor="senha">
@@ -80,6 +83,8 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
                 type="password"
                 id="senha"
                 placeholder="Digite sua senha"
+                value={senha}
+                onChange={(event) => setSenha(event.target.value)}
               />
             </label>
             <div className={estilos.termo__container}>
