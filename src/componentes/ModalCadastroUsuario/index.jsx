@@ -1,4 +1,3 @@
-import React from 'react';
 import estilos from './ModalCadastroUsuario.module.css';
 import { useState } from 'react';
 import api from 'services/api';

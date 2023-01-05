@@ -68,7 +68,6 @@ export default function Cabecalho() {
             <img src={avatarUsuario} alt="Ícone de um avatar de usuário" />
             <Botao
               texto="Sair"
-              tipo="secundario"
               onClick={() => aoEfetuarLogout()}
             />
           </div>
