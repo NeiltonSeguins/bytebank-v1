@@ -96,3 +96,27 @@
   font-weight: 400;
   margin-top: 0.5rem;
 }
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .wrapper > h3 {
+    font-size: 0.7rem;
+  }
+
+  .investimentos > h2 {
+    font-size: 0.8rem;
+  }
+
+  .investimentos > p {
+    font-size: 0.65rem;
+  }
+
+  .renda {
+    padding: 8px 12px;
+    width: 49%;
+    height: 50px;
+  }
+
+  .renda > h3 {
+    font-size: 0.7rem;
+  }
+}

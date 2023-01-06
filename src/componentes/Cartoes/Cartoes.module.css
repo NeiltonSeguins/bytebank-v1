@@ -72,3 +72,37 @@
 .botaoConfigurar:hover {
   background-color: #38812c;
 }
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .wrapper h2 {
+    font-size: 0.8rem;
+  }
+
+  .wrapper p {
+    font-size: 0.6rem;
+  }
+
+  .cartao > img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .funcoes {
+    width: 50%;
+    height: 90%;
+  }
+
+  .funcoes > span {
+    font-size: 0.6rem;
+  }
+
+  .botaoConfigurar {
+    width: 90%;
+    font-size: 0.7rem;
+  }
+
+  .botaoBloquear {
+    width: 90%;
+    font-size: 0.7rem;
+  }
+}
