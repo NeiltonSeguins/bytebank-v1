@@ -1,18 +1,16 @@
 .container {
-  height: 90vh;
   background: linear-gradient(180deg, #47a138 0%, #ffffff 100%);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .conteudo {
-  width: 1199px;
-  margin: 0 auto;
-  padding-top: 72px;
-  padding-bottom: 152px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0 auto;
+  padding: 2.27rem 0;
+  width: 1199px;
 }
 
 .banner {
@@ -70,4 +68,32 @@
   width: 73px;
   height: 56px;
   margin-bottom: 0.6rem;
+}
+
+@media (max-width: 768px) {
+  .conteudo {
+    width: 602px;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+  }
+
+  .banner h1 {
+    width: 446px;
+    text-align: center;
+    height: 117px;
+  }
+
+  .banner > img {
+    width: 560px;
+    height: 342px;
+  }
+
+  .vantagens__itens {
+    flex-wrap: wrap;
+  }
 }

@@ -1,6 +1,6 @@
 .cabecalho {
   background-color: #111111;
-  height: 76px;
+  height: 96px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,3 +38,10 @@ img {
   height: 40px;
   width: 40px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 602px;
+  }
+}
+

@@ -1,3 +1,23 @@
+html {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #e3f9e5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   background-color: #cbcbcb;
   border-radius: 8px;
