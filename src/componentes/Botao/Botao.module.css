@@ -19,3 +19,17 @@
   font-weight: 400;
   cursor: pointer;
 }
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .btn__primario {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 10px 8px;
+  }
+
+  .btn__secundario {
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 10px 8px;
+  }
+}

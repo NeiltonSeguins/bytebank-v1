@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 16px;
-  width: 1199px;
+  min-width: 1199px;
   margin: 0 auto;
 }
 
@@ -47,14 +47,28 @@
   height: 32px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 768px) {
   .container {
     height: 178px;
     position: fixed;
   }
 
   .caixa__rodape {
-    padding: 0;
-    width: 602px;
+    padding: 0.8rem;
+    min-width: 100%;
+  }
+
+  .coluna__infos {
+    max-width: 33.33%;
+  }
+
+  .logo__bytebank {
+    height: 70%;
+    width: 70%;
+  }
+
+  .logos > img {
+    width: 24px;
+    height: 24px;
   }
 }
