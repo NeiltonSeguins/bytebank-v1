@@ -54,3 +54,9 @@ body {
   bottom: 0;
   left: 0;
 }
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+}
