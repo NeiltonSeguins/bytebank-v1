@@ -13,6 +13,7 @@
   justify-content: space-between;
   align-items: center;
   min-width: 1199px;
+  z-index: 10;
 }
 
 .botoes {
@@ -30,6 +31,14 @@
   gap: 16px;
 }
 
+.usuario__info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  width: 282px;
+}
+
 p {
   color: #31b237;
   font-size: 14px;
@@ -38,6 +47,29 @@ p {
 img {
   height: 40px;
   width: 40px;
+}
+
+.hamburguerIcon {
+  display: none;
+}
+
+@media (max-width: 425px) {
+  .container {
+    min-width: 90%;
+  }
+
+  .usuario {
+    width: 50%;
+    align-items: center;
+  }
+
+  .usuario__info {
+    display: none;
+  }
+
+  .hamburguerIcon {
+    display: flex;
+  }
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
