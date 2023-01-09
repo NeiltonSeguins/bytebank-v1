@@ -20,6 +20,20 @@
   cursor: pointer;
 }
 
+@media (max-width: 425px) {
+  .btn__primario {
+    font-size: 0.5rem;
+    font-weight: 500;
+    padding: 8px 6px;
+  }
+
+  .btn__secundario {
+    font-size: 0.5rem;
+    font-weight: 400;
+    padding: 8px 6px;
+  }
+}
+
 @media (min-width: 425px) and (max-width: 768px) {
   .btn__primario {
     font-size: 0.7rem;

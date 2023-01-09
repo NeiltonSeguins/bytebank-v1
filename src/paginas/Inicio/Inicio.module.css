@@ -72,6 +72,55 @@
   margin-bottom: 0.6rem;
 }
 
+@media (max-width: 425px) {
+  .conteudo {
+    width: 100%;
+    max-width: 602px;
+  }
+
+  .banner {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 1.25rem;
+  }
+
+  .banner h1 {
+    width: 80%;
+    height: 50%;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .banner > img {
+    width: 80%;
+    height: 80%;
+    max-width: 560px;
+    max-height: 342px;
+  }
+
+  .vantagens h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .vantagens__item {
+    width: 80%;
+    text-align: center;
+  }
+
+  .vantagens__item h3 {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .vantagens__itens {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
 @media (min-width: 425px) and (max-width: 768px) {
   .conteudo {
     width: 100%;

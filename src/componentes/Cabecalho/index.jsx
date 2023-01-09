@@ -14,8 +14,8 @@ import MenuLateral from 'componentes/MenuLateral';
 export default function Cabecalho({ path }) {
   const [modalCadastroAberta, setModalCadastroAberta] = useState(false);
   const [modalLoginAberta, setModalLoginAberta] = useState(false);
-  const [nomeUsuario, setNomeUsuario] = useState('');
   const [burguerOpen, setBurguerOpen] = useState(false);
+  const [nomeUsuario, setNomeUsuario] = useState('');
   let navigate = useNavigate();
 
   const token = sessionStorage.getItem('token');
@@ -80,7 +80,13 @@ export default function Cabecalho({ path }) {
             </div>
             <div className={estilos.hamburguerIcon} onClick={toggleHamburguer}>
               <BurguerIcon />
-              {burguerOpen && <MenuLateral path={path} />}
+              {burguerOpen && (
+                <MenuLateral
+                  path={path}
+                  toggleHamburguer={toggleHamburguer}
+                  aoEfetuarLogout={aoEfetuarLogout}
+                />
+              )}
             </div>
           </div>
         )}
