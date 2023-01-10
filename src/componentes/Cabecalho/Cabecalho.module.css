@@ -91,3 +91,15 @@ img {
     justify-content: flex-end;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    min-width: 90%;
+  }
+
+  .botoes {
+    width: 60%;
+    gap: 16px;
+    justify-content: flex-end;
+  }
+}

@@ -153,3 +153,37 @@
     font-size: 0.7rem;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .wrapper h2 {
+    font-size: 1rem;
+  }
+
+  .wrapper p {
+    font-size: 0.8rem;
+  }
+
+  .cartao > img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .funcoes {
+    width: 50%;
+    height: 87%;
+  }
+
+  .funcoes > span {
+    font-size: 0.6rem;
+  }
+
+  .botaoConfigurar {
+    width: 80%;
+    font-size: 0.7rem;
+  }
+
+  .botaoBloquear {
+    width: 80%;
+    font-size: 0.7rem;
+  }
+}

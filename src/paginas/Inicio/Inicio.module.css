@@ -163,3 +163,49 @@
     justify-content: space-around;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .conteudo {
+    width: 90%;
+  }
+
+  .banner h1 {
+    font-size: 25px;
+  }
+
+  .banner > img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .vantagens h2 {
+    font-size: 20px;
+  }
+
+  .vantagens__itens {
+    width: 100%;
+  }
+
+  .vantagens__item {
+    width: 25%;
+    height: 100%;
+  }
+
+  .vantagens__item h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .vantagens__item p {
+    margin: 0.8rem 0;
+    text-align: center;
+    width: 100%;
+    color: #767676;
+  }
+
+  .vantagens__item img {
+    width: 73px;
+    height: 56px;
+    margin-bottom: 0.6rem;
+  }
+}

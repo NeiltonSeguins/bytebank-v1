@@ -162,3 +162,25 @@
     font-size: 0.7rem;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .wrapper > h3 {
+    font-size: 0.9rem;
+  }
+
+  .investimentos > h2 {
+    font-size: 1rem;
+  }
+
+  .investimentos > p {
+    font-size: 0.7rem;
+  }
+
+  .renda > p {
+    font-size: 0.65rem;
+  }
+
+  .renda > h3 {
+    font-size: 0.7rem;
+  }
+}

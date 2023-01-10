@@ -1,10 +1,10 @@
 .caixa {
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   margin-top: 1rem;
   max-width: 1199px;
   height: 87vh;
-  justify-content: space-between;
 }
 
 .envelope {
@@ -36,5 +36,16 @@
 
   .envelope {
     width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .caixa {
+    width: 90%;
+    justify-content: space-around;
+  }
+
+  .envelope {
+    margin: 0 16px;
   }
 }
