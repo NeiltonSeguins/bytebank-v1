@@ -64,6 +64,14 @@
   background-color: #50bd3f;
 }
 
+
+@media (max-width: 425px) {
+  .formulario{
+    width: 100%;
+  }
+}
+
+
 @media (min-width: 425px) and (max-width: 768px) {
   .botao {
     font-size: 0.7rem;

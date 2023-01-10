@@ -61,6 +61,13 @@ ul {
   margin: 0.8rem auto;
 }
 
+@media (max-width: 425px) {
+  .container {
+    margin-top: 1rem;
+    width: 90%;
+  }
+}
+
 @media (min-width: 425px) and (max-width: 768px) {
   .container {
     margin-top: 1rem;
