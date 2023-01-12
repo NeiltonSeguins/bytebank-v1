@@ -50,6 +50,7 @@ export default function Cabecalho({ path }) {
           <>
             <div className={estilos.botoes}>
               <Botao
+                acaoBotao="cadastro"
                 texto="Abrir minha conta"
                 onClick={() => setModalCadastroAberta(true)}
               />
@@ -58,6 +59,7 @@ export default function Cabecalho({ path }) {
                 aoFechar={() => setModalCadastroAberta(false)}
               />
               <Botao
+                acaoBotao="login"
                 texto="Já tenho conta"
                 tipo="secundario"
                 onClick={() => setModalLoginAberta(true)}
