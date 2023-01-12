@@ -16,6 +16,7 @@ export default function Cabecalho({ path }) {
   const [modalLoginAberta, setModalLoginAberta] = useState(false);
   const [burguerOpen, setBurguerOpen] = useState(false);
   const [nomeUsuario, setNomeUsuario] = useState('');
+  
   let navigate = useNavigate();
 
   const token = sessionStorage.getItem('token');
