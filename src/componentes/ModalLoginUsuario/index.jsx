@@ -47,11 +47,15 @@ export default function ModalLoginUsuario({
       })
       .catch((erro) => {
         if (erro?.response?.data?.message) {
-          alert(erro.response.data.message);
+          setErro({
+            path: 'message-erro',
+            message: erro.response.data.message,
+          });
         } else {
           alert(
             'Aconteceu um erro inesperado ao efetuar login! Contate o suporte'
           );
+          aoFechar();
         }
       });
   };
@@ -78,6 +82,7 @@ export default function ModalLoginUsuario({
             src={ilustracaoLogin}
             alt="pessoa ao lado de um dispositivo móvel"
           />
+          {erro.path == 'message-erro' ? <span>{erro.message}</span> : ''}
           <p className={estilos.modal__descricao}>Login</p>
           <form onSubmit={onSubmit} className={estilos.modal__form}>
             <label htmlFor="email">
@@ -106,6 +111,11 @@ export default function ModalLoginUsuario({
                 value={senha}
                 onChange={(event) => setSenha(event.target.value)}
               />
+              {erro.path === 'senha' ? (
+                <span data-test="mensagem-erro">{erro.message}</span>
+              ) : (
+                ''
+              )}
             </label>
             <Botao acaoBotao="enviar" texto="Acessar" />
           </form>

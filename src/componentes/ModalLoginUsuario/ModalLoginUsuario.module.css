@@ -55,6 +55,13 @@
   height: 222px;
 }
 
+.modal__container span {
+  color: red;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 24px;
+}
+
 .modal__form {
   display: flex;
   flex-direction: column;

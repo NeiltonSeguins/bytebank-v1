@@ -3,13 +3,15 @@ import { useState } from 'react';
 import api from 'services/api';
 import ilustracaoCadastro from './assets/ilustracao-cadastro.svg';
 import Botao from 'componentes/Botao';
+import { validaDadosFormulario } from 'validacoes/validaFomulario';
 
 export default function ModalCadastroUsuario({ aberta, aoFechar }) {
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
+  const [erro, setErro] = useState({});
 
-  const onSubmit = (event) => {
+  const onSubmit = async (event) => {
     event.preventDefault();
     const usuario = {
       nome,
@@ -17,18 +19,39 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
       senha,
     };
 
+    const result = await validaDadosFormulario(usuario);
+
+    if (!result.valid) {
+      setErro({
+        path: result.path,
+        message: result.message,
+      });
+      return;
+    }
+
     api
       .post('/public/cadastrar', usuario)
       .then(() => {
-        alert('Usuário cadastrado com sucesso!');
+        setErro({
+          path: 'message-sucess',
+          message: 'Usuário cadastrado com sucesso!',
+        });
         setNome('');
         setEmail('');
         setSenha('');
-        aoFechar();
+        setTimeout(() => {
+          aoFechar();
+          setErro({
+            path: '',
+            message: '',
+          });
+        }, 1000);
       })
       .catch((erro) => {
-        console.log(erro);
-        alert('Ops! Alguma coisa deu errado');
+        setErro({
+          path: 'email',
+          message: erro?.response?.data?.message,
+        });
       });
   };
 
@@ -53,6 +76,11 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
             src={ilustracaoCadastro}
             alt="pessoa ao lado de um notebook com cadeado"
           />
+          {erro.path == 'message-sucess' ? (
+            <span data-test="mensagem-sucesso">{erro.message}</span>
+          ) : (
+            ''
+          )}
           <p className={estilos.modal__descricao}>
             Preencha os campos abaixo para criar sua conta corrente!
           </p>
@@ -66,6 +94,11 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
                 value={nome}
                 onChange={(event) => setNome(event.target.value)}
               />
+              {erro.path === 'nome' ? (
+                <span data-test="mensagem-erro">{erro.message}</span>
+              ) : (
+                ''
+              )}
             </label>
             <label htmlFor="email">
               E-mail
@@ -75,6 +108,11 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
                 value={email}
                 onChange={(event) => setEmail(event.target.value)}
               />
+              {erro.path === 'email' ? (
+                <span data-test="mensagem-erro">{erro.message}</span>
+              ) : (
+                ''
+              )}
             </label>
             <label htmlFor="senha">
               Senha
@@ -85,6 +123,11 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
                 value={senha}
                 onChange={(event) => setSenha(event.target.value)}
               />
+              {erro.path === 'senha' ? (
+                <span data-test="mensagem-erro">{erro.message}</span>
+              ) : (
+                ''
+              )}
             </label>
             <div className={estilos.termo__container}>
               <input className={estilos.checkbox} type="checkbox" />
