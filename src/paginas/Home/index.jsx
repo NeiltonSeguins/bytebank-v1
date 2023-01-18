@@ -26,7 +26,7 @@ export default function Home() {
 
   return (
     <>
-      <main className={estilos.caixa}>
+      <main data-test="app-home" className={estilos.caixa}>
         <Menu path={location.pathname} />
         <div className={estilos.envelope}>
           <Principal saldo={saldo} />

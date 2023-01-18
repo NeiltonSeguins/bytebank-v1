@@ -108,6 +108,7 @@ export default function ModalLoginUsuario({
                 type="password"
                 id="senha"
                 placeholder="Digite sua senha"
+                data-test="senha-input"
                 value={senha}
                 onChange={(event) => setSenha(event.target.value)}
               />

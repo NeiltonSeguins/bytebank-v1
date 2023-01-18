@@ -90,6 +90,7 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
               <input
                 type="text"
                 id="nome"
+                data-test="nome-input"
                 placeholder="Digite seu nome completo"
                 value={nome}
                 onChange={(event) => setNome(event.target.value)}
@@ -104,6 +105,7 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
               E-mail
               <input
                 type="email"
+                data-test="email-input"
                 placeholder="Digite seu email"
                 value={email}
                 onChange={(event) => setEmail(event.target.value)}
@@ -119,6 +121,7 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
               <input
                 type="password"
                 id="senha"
+                data-test="senha-input"
                 placeholder="Digite sua senha"
                 value={senha}
                 onChange={(event) => setSenha(event.target.value)}
@@ -130,13 +133,17 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
               )}
             </label>
             <div className={estilos.termo__container}>
-              <input className={estilos.checkbox} type="checkbox" />
+              <input
+                data-test="checkbox-input"
+                className={estilos.checkbox}
+                type="checkbox"
+              />
               <p>
                 Li e estou ciente quanto às condições de tratamento dos meus
                 dados conforme descrito na Política de Privacidade do banco.
               </p>
             </div>
-            <Botao texto="Criar conta" />
+            <Botao acaoBotao="enviar" texto="Criar conta" />
           </form>
         </div>
       </div>

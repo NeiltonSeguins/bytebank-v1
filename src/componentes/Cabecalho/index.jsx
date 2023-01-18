@@ -16,7 +16,7 @@ export default function Cabecalho({ path }) {
   const [modalLoginAberta, setModalLoginAberta] = useState(false);
   const [burguerOpen, setBurguerOpen] = useState(false);
   const [nomeUsuario, setNomeUsuario] = useState('');
-  
+
   let navigate = useNavigate();
 
   const token = sessionStorage.getItem('token');
@@ -79,7 +79,11 @@ export default function Cabecalho({ path }) {
             <div className={estilos.usuario__info}>
               <p>{`Olá, ${nomeUsuario}`}</p>
               <img src={avatarUsuario} alt="Ícone de um avatar de usuário" />
-              <Botao texto="Sair" onClick={() => aoEfetuarLogout()} />
+              <Botao
+                acaoBotao="sair"
+                texto="Sair"
+                onClick={() => aoEfetuarLogout()}
+              />
             </div>
             <div className={estilos.hamburguerIcon} onClick={toggleHamburguer}>
               <BurguerIcon />

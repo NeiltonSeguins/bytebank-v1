@@ -33,6 +33,7 @@ export default function Formulario({ realizarTransacao }) {
           onChange={handleChange}
           name="transacao"
           data-testid="select-opcoes"
+          data-test="select-opcoes"
         >
           <option defaultValue="Selecione um tipo de transação">
             Selecione um tipo de transação
@@ -53,8 +54,9 @@ export default function Formulario({ realizarTransacao }) {
           name="valor"
           id="valor"
           placeholder="Digite um valor"
+          data-test="form-input"
         />
-        <button className={estilos.botao} type="submit">
+        <button className={estilos.botao} data-test="realiza-transacao" type="submit">
           Realizar transação
         </button>
       </div>
