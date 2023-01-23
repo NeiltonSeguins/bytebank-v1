@@ -14,7 +14,7 @@ export default function MenuLateral({
   aoEfetuarLogout,
 }) {
   return (
-    <nav className={estilos.menu}>
+    <nav data-test="menu-lateral" className={estilos.menu}>
       <button
         className={estilos.fechar__modal}
         onClick={() => toggleHamburguer()}

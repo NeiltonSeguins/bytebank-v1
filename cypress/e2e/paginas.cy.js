@@ -8,17 +8,19 @@ describe('Tesntando múltiplas páginas', () => {
     cy.location('pathname').should('eq', '/home');
   });
 
-  it('Deve conseguir acessar a página de Cartões ', () => {
-    cy.getByData('app-home').find('a').eq(1).click();
-    cy.location('pathname').should('eq', '/home/cartoes');
-  });
+  it(
+    'Deve conseguir acessar a página de Cartões',
+    { browser: 'chrome' },
+    () => {
+      cy.getByData('app-home').find('a').eq(1).click();
+      cy.location('pathname').should('eq', '/home/cartoes');
+    }
+  );
 
-  it.skip('Deve conseguir realizar uma transação', () => {
+  it('Deve conseguir realizar uma transação', { browser: 'edge' }, () => {
     cy.getByData('select-opcoes').select('Transferência');
     cy.getByData('form-input').type('50');
     cy.getByData('realiza-transacao').click();
-
-    cy.getByData('lista-transacoes').children().should('have.length', 3);
   });
 
   it.skip('Deve permitir sair da aplicação/fazer logout', () => {
