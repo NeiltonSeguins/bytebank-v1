@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import estilos from './Formulario.module.css';
 
 export default function Formulario({ realizarTransacao }) {
-  const [valor, setValor] = useState({ transacao: '', valor: '' });
+  const [valor, setValor] = useState({ tipoTransacao: '', valor: '' });
 
   function handleChange(e) {
     const { name, value } = e.target;
@@ -31,7 +31,7 @@ export default function Formulario({ realizarTransacao }) {
         <select
           className={estilos.grupo__opcoes}
           onChange={handleChange}
-          name="transacao"
+          name="tipoTransacao"
           data-testid="select-opcoes"
           data-test="select-opcoes"
         >
@@ -56,7 +56,11 @@ export default function Formulario({ realizarTransacao }) {
           placeholder="Digite um valor"
           data-test="form-input"
         />
-        <button className={estilos.botao} data-test="realiza-transacao" type="submit">
+        <button
+          className={estilos.botao}
+          data-test="realiza-transacao"
+          type="submit"
+        >
           Realizar transação
         </button>
       </div>

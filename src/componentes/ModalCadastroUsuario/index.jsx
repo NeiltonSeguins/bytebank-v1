@@ -30,7 +30,7 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
     }
 
     api
-      .post('/public/cadastrar', usuario)
+      .post('/users/register', usuario)
       .then(() => {
         setErro({
           path: 'message-sucess',

@@ -36,6 +36,7 @@ export default function Cabecalho({ path }) {
   const aoEfetuarLogout = () => {
     setUsuarioEstaLogado(false);
     sessionStorage.removeItem('token');
+    localStorage.removeItem('userId');
     navigate('/');
   };
 

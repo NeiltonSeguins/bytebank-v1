@@ -5,7 +5,7 @@ export default function Transacoes({ transacao, estilos }) {
     <li>
       <p className={estilos.mes}>{transacao.mes}</p>
       <div className={estilos.transacao}>
-        <p data-testid="tipoTransacao">{transacao.transacao}</p>
+        <p data-testid="tipoTransacao">{transacao.tipoTransacao}</p>
         <span>{transacao.data}</span>
       </div>
       {transacao.transacao === 'Transferência' ? (
