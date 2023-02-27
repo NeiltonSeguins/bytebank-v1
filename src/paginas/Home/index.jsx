@@ -6,10 +6,10 @@ import useListaTransacoes from 'hooks/useListaTransacoes';
 import useSaldo from 'hooks/useSaldo';
 import estilos from './App.module.css';
 
-import Extrato from 'componentes/Extrato';
-import Menu from 'componentes/Menu';
-import Principal from 'componentes/Principal';
-import NovaTransacao from 'componentes/NovaTransacao';
+import Extrato from './Extrato';
+import Menu from 'paginas/Home/Menu';
+import Principal from './Principal';
+import NovaTransacao from './NovaTransacao';
 
 export default function Home() {
   const [saldo, setSaldo] = useSaldo();

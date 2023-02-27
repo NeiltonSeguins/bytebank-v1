@@ -8,8 +8,8 @@ import ModalLoginUsuario from 'componentes/ModalLoginUsuario';
 import Botao from 'componentes/Botao';
 import avatarUsuario from 'assets/avatar.svg';
 import estilos from './Cabecalho.module.css';
-import BurguerIcon from 'componentes/BurguerIcon';
-import MenuLateral from 'componentes/MenuLateral';
+import BurguerIcon from 'componentes/Cabecalho/BurguerIcon';
+import MenuLateral from './BurguerIcon/MenuLateral';
 
 export default function Cabecalho({ path }) {
   const [modalCadastroAberta, setModalCadastroAberta] = useState(false);

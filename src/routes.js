@@ -1,11 +1,12 @@
 import { Route, Routes } from 'react-router-dom';
+
 import PaginaPadrao from 'paginas/PaginaPadrao';
-import Cartoes from 'componentes/Cartoes';
-import Investimentos from 'componentes/Investimentos';
-import Servicos from 'componentes/Servicos';
-import Pagina404 from 'paginas/Pagina404';
 import Home from 'paginas/Home';
+import Cartoes from './paginas/Home/Cartoes';
+import Investimentos from './paginas/Home/Investimentos';
+import Servicos from './paginas/Home/Servicos';
 import Inicio from 'paginas/Inicio';
+import Pagina404 from 'paginas/Pagina404';
 
 export default function AppRoutes() {
   return (
