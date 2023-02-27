@@ -1,28 +1,15 @@
 import { Outlet, useLocation } from 'react-router-dom';
-import { calculaNovoSaldo } from 'utils';
-import { salvaTransacao } from 'services/transacoes';
-import { atualizaSaldo } from 'services/saldo';
-import useListaTransacoes from 'hooks/useListaTransacoes';
-import useSaldo from 'hooks/useSaldo';
 import estilos from './App.module.css';
 
 import Extrato from './Extrato';
 import Menu from 'paginas/Home/Menu';
 import Principal from './Principal';
 import NovaTransacao from './NovaTransacao';
+import { useHomeContext } from 'common/hooks/useHomeContext';
 
 export default function Home() {
-  const [saldo, setSaldo] = useSaldo();
-  const [transacoes, setTransacoes] = useListaTransacoes();
+  const { saldo, transacoes, realizarTransacao } = useHomeContext();
   const location = useLocation();
-
-  function realizarTransacao(valores) {
-    const novoSaldo = calculaNovoSaldo(valores, saldo);
-    setSaldo(novoSaldo);
-    atualizaSaldo(novoSaldo);
-    setTransacoes([...transacoes, valores]);
-    salvaTransacao(valores);
-  }
 
   return (
     <>

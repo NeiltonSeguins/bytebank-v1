@@ -1,9 +1,9 @@
 import estilos from './ModalCadastroUsuario.module.css';
 import { useState } from 'react';
-import api from 'services/api';
+import api from 'common/services/api';
 import ilustracaoCadastro from './assets/ilustracao-cadastro.svg';
 import Botao from 'componentes/Botao';
-import { validaDadosFormulario } from 'validacoes/validaFomulario';
+import { validaDadosFormulario } from 'common/validacoes/validaFomulario';
 
 export default function ModalCadastroUsuario({ aberta, aoFechar }) {
   const [nome, setNome] = useState('');
@@ -143,7 +143,7 @@ export default function ModalCadastroUsuario({ aberta, aoFechar }) {
                 dados conforme descrito na Política de Privacidade do banco.
               </p>
             </div>
-            <Botao acaoBotao="enviar" texto="Criar conta" />
+            <Botao dataTest="botao-enviar" texto="Criar conta" />
           </form>
         </div>
       </div>

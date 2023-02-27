@@ -1,9 +1,9 @@
 import Botao from 'componentes/Botao';
 import { useState } from 'react';
-import api from 'services/api';
+import api from 'common/services/api';
 import estilos from './ModalLoginUsuario.module.css';
 import ilustracaoLogin from './assets/ilustracao-login.svg';
-import { validaDadosFormulario } from 'validacoes/validaFomulario';
+import { validaDadosFormulario } from 'common/validacoes/validaFomulario';
 
 export default function ModalLoginUsuario({
   aberta,
@@ -119,7 +119,7 @@ export default function ModalLoginUsuario({
                 ''
               )}
             </label>
-            <Botao acaoBotao="enviar" texto="Acessar" />
+            <Botao dataTest="botao-enviar" texto="Acessar" />
           </form>
           <div className={estilos.link}>
             <a href="/">Esqueci minha senha!</a>

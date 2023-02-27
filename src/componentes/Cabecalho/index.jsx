@@ -1,7 +1,3 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { ReactComponent as Logo } from 'assets/bytebank.svg';
 import ModalCadastroUsuario from 'componentes/ModalCadastroUsuario';
 import ModalLoginUsuario from 'componentes/ModalLoginUsuario';
@@ -10,39 +6,22 @@ import avatarUsuario from 'assets/avatar.svg';
 import estilos from './Cabecalho.module.css';
 import BurguerIcon from 'componentes/Cabecalho/BurguerIcon';
 import MenuLateral from './BurguerIcon/MenuLateral';
+import { useCabecalhoContext } from 'common/hooks/useCabecalhoContext';
 
 export default function Cabecalho({ path }) {
-  const [modalCadastroAberta, setModalCadastroAberta] = useState(false);
-  const [modalLoginAberta, setModalLoginAberta] = useState(false);
-  const [burguerOpen, setBurguerOpen] = useState(false);
-  const [nomeUsuario, setNomeUsuario] = useState('');
-
-  let navigate = useNavigate();
-
-  const token = sessionStorage.getItem('token');
-
-  const [usuarioEstaLogado, setUsuarioEstaLogado] = useState(token != null);
-
-  const toggleHamburguer = () => {
-    setBurguerOpen(!burguerOpen);
-  };
-
-  const aoEfetuarLogin = () => {
-    setModalLoginAberta(false);
-    setUsuarioEstaLogado(true);
-    navigate('/home');
-  };
-
-  const aoEfetuarLogout = () => {
-    setUsuarioEstaLogado(false);
-    sessionStorage.removeItem('token');
-    localStorage.removeItem('userId');
-    navigate('/');
-  };
-
-  const salvaNomeUsuario = (nomeUsuario) => {
-    setNomeUsuario(nomeUsuario);
-  };
+  const {
+    usuarioEstaLogado,
+    setModalCadastroAberta,
+    setModalLoginAberta,
+    burguerOpen,
+    modalCadastroAberta,
+    modalLoginAberta,
+    nomeUsuario,
+    toggleHamburguer,
+    aoEfetuarLogin,
+    aoEfetuarLogout,
+    salvaNomeUsuario,
+  } = useCabecalhoContext();
 
   return (
     <header className={estilos.cabecalho}>
@@ -52,7 +31,7 @@ export default function Cabecalho({ path }) {
           <>
             <div className={estilos.botoes}>
               <Botao
-                acaoBotao="cadastro"
+                dataTest="botao-cadastro"
                 texto="Abrir minha conta"
                 onClick={() => setModalCadastroAberta(true)}
               />
@@ -61,7 +40,7 @@ export default function Cabecalho({ path }) {
                 aoFechar={() => setModalCadastroAberta(false)}
               />
               <Botao
-                acaoBotao="login"
+                dataTest="botao-login"
                 texto="Já tenho conta"
                 tipo="secundario"
                 onClick={() => setModalLoginAberta(true)}
@@ -81,7 +60,7 @@ export default function Cabecalho({ path }) {
               <p>{`Olá, ${nomeUsuario}`}</p>
               <img src={avatarUsuario} alt="Ícone de um avatar de usuário" />
               <Botao
-                acaoBotao="sair"
+                dataTest="botao-sair"
                 texto="Sair"
                 onClick={() => aoEfetuarLogout()}
               />
