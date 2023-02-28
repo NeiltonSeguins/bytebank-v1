@@ -1,65 +1,18 @@
 import Botao from 'componentes/Botao';
-import { useState } from 'react';
 import api from 'common/services/api';
 import estilos from './ModalLoginUsuario.module.css';
 import ilustracaoLogin from './assets/ilustracao-login.svg';
 import { validaDadosFormulario } from 'common/validacoes/validaFomulario';
+import { useModalContext } from 'common/hooks/useModalContext';
+import { ModalContext } from 'common/context/ModalContext';
 
 export default function ModalLoginUsuario({
   aberta,
   aoFechar,
   aoEfetuarLogin,
-  salvaNomeUsuario,
 }) {
-  const [email, setEmail] = useState('');
-  const [senha, setSenha] = useState('');
-  const [erro, setErro] = useState({});
-
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    const usuario = {
-      email,
-      senha,
-    };
-
-    const result = await validaDadosFormulario(usuario);
-    if (!result.valid) {
-      setErro({
-        path: result.path,
-        message: result.message,
-      });
-      return;
-    }
-
-    api
-      .post('/users/login', usuario)
-      .then((resposta) => {
-        sessionStorage.setItem('token', resposta.data.access_token);
-        localStorage.setItem('userId', resposta.data.user.id);
-        setEmail('');
-        setSenha('');
-        setErro({
-          path: '',
-          message: '',
-        });
-        aoEfetuarLogin();
-        const nomeUsuario = resposta.data.user.nome;
-        salvaNomeUsuario(nomeUsuario);
-      })
-      .catch((erro) => {
-        if (erro?.response?.data?.message) {
-          setErro({
-            path: 'message-erro',
-            message: erro.response.data.message,
-          });
-        } else {
-          alert(
-            'Aconteceu um erro inesperado ao efetuar login! Contate o suporte'
-          );
-          aoFechar();
-        }
-      });
-  };
+  const { email, senha, erro, handleChange, onSubmitLogin } =
+    useModalContext(ModalContext);
 
   if (!aberta) {
     return <></>;
@@ -85,7 +38,18 @@ export default function ModalLoginUsuario({
           />
           {erro.path == 'message-erro' ? <span>{erro.message}</span> : ''}
           <p className={estilos.modal__descricao}>Login</p>
-          <form onSubmit={onSubmit} className={estilos.modal__form}>
+          <form
+            onSubmit={() =>
+              onSubmitLogin(
+                event,
+                api,
+                aoFechar,
+                aoEfetuarLogin,
+                validaDadosFormulario
+              )
+            }
+            className={estilos.modal__form}
+          >
             <label htmlFor="email">
               E-mail
               <input
@@ -95,7 +59,7 @@ export default function ModalLoginUsuario({
                 data-test="email-input"
                 placeholder="Digite seu email"
                 value={email}
-                onChange={(event) => setEmail(event.target.value)}
+                onChange={handleChange}
               />
               {erro.path === 'email' ? (
                 <span data-test="mensagem-erro">{erro.message}</span>
@@ -107,11 +71,12 @@ export default function ModalLoginUsuario({
               Senha
               <input
                 type="password"
+                name="senha"
                 id="senha"
                 placeholder="Digite sua senha"
                 data-test="senha-input"
                 value={senha}
-                onChange={(event) => setSenha(event.target.value)}
+                onChange={handleChange}
               />
               {erro.path === 'senha' ? (
                 <span data-test="mensagem-erro">{erro.message}</span>

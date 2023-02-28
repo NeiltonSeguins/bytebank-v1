@@ -9,23 +9,25 @@ import Inicio from 'paginas/Inicio';
 import Pagina404 from 'paginas/Pagina404';
 import { HomeProvider } from 'common/context/HomeContext';
 import { CabecalhoProvider } from 'common/context/CabecalhoContext';
+import { ModalProvider } from 'common/context/ModalContext';
 
 export default function AppRoutes() {
   return (
     <HomeProvider>
       <CabecalhoProvider>
-        <Routes>
-          <Route path="/" element={<PaginaPadrao />}>
-            <Route path="/" element={<Inicio />} />
-            <Route path="/home" element={<Home />}>
-              <Route path="cartoes" element={<Cartoes />} />
-              <Route path="investimentos" element={<Investimentos />} />
-              <Route path="servicos" element={<Servicos />} />
+        <ModalProvider>
+          <Routes>
+            <Route path="/" element={<PaginaPadrao />}>
+              <Route path="/" element={<Inicio />} />
+              <Route path="/home" element={<Home />}>
+                <Route path="cartoes" element={<Cartoes />} />
+                <Route path="investimentos" element={<Investimentos />} />
+                <Route path="servicos" element={<Servicos />} />
+              </Route>
             </Route>
-          </Route>
-
-          <Route path="*" element={<Pagina404 />} />
-        </Routes>
+            <Route path="*" element={<Pagina404 />} />
+          </Routes>
+        </ModalProvider>
       </CabecalhoProvider>
     </HomeProvider>
   );

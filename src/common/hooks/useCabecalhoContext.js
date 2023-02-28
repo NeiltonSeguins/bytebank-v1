@@ -7,12 +7,12 @@ export const useCabecalhoContext = () => {
     modalCadastroAberta,
     modalLoginAberta,
     burguerOpen,
-    nomeUsuario,
     setModalCadastroAberta,
     setModalLoginAberta,
     setBurguerOpen,
-    setNomeUsuario,
   } = useContext(CabecalhoContext);
+
+  const nomeUsuario = localStorage.getItem('nomeUsuario');
 
   let navigate = useNavigate();
 
@@ -34,11 +34,8 @@ export const useCabecalhoContext = () => {
     setUsuarioEstaLogado(false);
     sessionStorage.removeItem('token');
     localStorage.removeItem('userId');
+    localStorage.removeItem('nomeUsuario');
     navigate('/');
-  };
-
-  const salvaNomeUsuario = (nomeUsuario) => {
-    setNomeUsuario(nomeUsuario);
   };
 
   return {
@@ -52,6 +49,5 @@ export const useCabecalhoContext = () => {
     toggleHamburguer,
     aoEfetuarLogin,
     aoEfetuarLogout,
-    salvaNomeUsuario,
   };
 };

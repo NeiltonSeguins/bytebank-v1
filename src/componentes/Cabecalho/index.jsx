@@ -20,7 +20,6 @@ export default function Cabecalho({ path }) {
     toggleHamburguer,
     aoEfetuarLogin,
     aoEfetuarLogout,
-    salvaNomeUsuario,
   } = useCabecalhoContext();
 
   return (
@@ -49,7 +48,6 @@ export default function Cabecalho({ path }) {
                 aberta={modalLoginAberta}
                 aoFechar={() => setModalLoginAberta(false)}
                 aoEfetuarLogin={aoEfetuarLogin}
-                salvaNomeUsuario={salvaNomeUsuario}
               />
             </div>
           </>

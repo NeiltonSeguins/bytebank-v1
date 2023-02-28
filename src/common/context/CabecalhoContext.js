@@ -6,7 +6,6 @@ export const CabecalhoProvider = ({ children }) => {
   const [modalCadastroAberta, setModalCadastroAberta] = useState(false);
   const [modalLoginAberta, setModalLoginAberta] = useState(false);
   const [burguerOpen, setBurguerOpen] = useState(false);
-  const [nomeUsuario, setNomeUsuario] = useState('');
 
   return (
     <CabecalhoContext.Provider
@@ -14,11 +13,9 @@ export const CabecalhoProvider = ({ children }) => {
         modalCadastroAberta,
         modalLoginAberta,
         burguerOpen,
-        nomeUsuario,
         setModalCadastroAberta,
         setModalLoginAberta,
         setBurguerOpen,
-        setNomeUsuario,
       }}
     >
       {children}
