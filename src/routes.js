@@ -10,6 +10,7 @@ import Pagina404 from 'paginas/Pagina404';
 import { HomeProvider } from 'common/context/HomeContext';
 import { CabecalhoProvider } from 'common/context/CabecalhoContext';
 import { ModalProvider } from 'common/context/ModalContext';
+import { MinhaConta } from 'paginas/MinhaConta';
 
 export default function AppRoutes() {
   return (
@@ -24,6 +25,7 @@ export default function AppRoutes() {
                 <Route path="investimentos" element={<Investimentos />} />
                 <Route path="servicos" element={<Servicos />} />
               </Route>
+              <Route path="/minha-conta" element={<MinhaConta />} />
             </Route>
             <Route path="*" element={<Pagina404 />} />
           </Routes>

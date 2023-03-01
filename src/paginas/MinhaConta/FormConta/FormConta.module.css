@@ -1,0 +1,84 @@
+.container {
+  width: 83%;
+  height: 65%;
+  background: #cbcbcb;
+  border-radius: 8px;
+  padding: 32px;
+  position: relative;
+}
+
+.container > h1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.envelope {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.envelope > img {
+  width: 446px;
+  height: 381px;
+  z-index: 1;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  z-index: 1;
+}
+
+.formulario > label {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 8px;
+}
+
+.formulario > input {
+  background: #f2f2f2;
+  mix-blend-mode: normal;
+  height: 48px;
+  border: 1px solid #47a138;
+  outline: none;
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 24px;
+}
+
+.formulario > input::placeholder {
+  font-size: 16px;
+}
+
+.formulario > button {
+  width: 50%;
+}
+
+.detalhe__superior {
+  background-image: url(../../../assets/detalhe-sup.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.detalhe__inferior {
+  background-image: url(../../../assets/detalhe-inf.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
