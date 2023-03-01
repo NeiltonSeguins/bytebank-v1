@@ -122,6 +122,58 @@ export const useModalContext = () => {
       });
   };
 
+  const onSubmitUpdateUser = async (
+    event,
+    navigate,
+    api,
+    validaDadosFormulario,
+    userId
+  ) => {
+    event.preventDefault();
+    const usuario = {
+      nome,
+      email,
+      senha,
+    };
+
+    const result = await validaDadosFormulario(usuario);
+
+    if (!result.valid) {
+      setErro({
+        path: result.path,
+        message: result.message,
+      });
+      return;
+    }
+
+    api
+      .put(`/users/${userId}`, usuario)
+      .then(() => {
+        localStorage.setItem('nomeUsuario', nome);
+        alert('Alterações salvas com sucesso!');
+        setErro({
+          path: 'message-sucess',
+          message: 'Alterações salvas com sucesso!',
+        });
+        setNome('');
+        setEmail('');
+        setSenha('');
+        navigate('/home');
+        setTimeout(() => {
+          setErro({
+            path: '',
+            message: '',
+          });
+        }, 1000);
+      })
+      .catch((erro) => {
+        setErro({
+          path: 'email',
+          message: erro?.response?.data?.message,
+        });
+      });
+  };
+
   return {
     nome,
     setNome,
@@ -134,5 +186,6 @@ export const useModalContext = () => {
     handleChange,
     onSubmitCadastro,
     onSubmitLogin,
+    onSubmitUpdateUser,
   };
 };
