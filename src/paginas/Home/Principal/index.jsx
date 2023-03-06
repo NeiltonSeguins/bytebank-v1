@@ -19,7 +19,9 @@ export default function Principal({ saldo }) {
   return (
     <section className={estilos.container}>
       <div className={estilos.detalhe__superior} />
-      <h1 className={estilos.titulo}>Bem vindo de volta!</h1>
+      <h1 data-test="titulo-boas-vindas" className={estilos.titulo}>
+        Bem vindo de volta!
+      </h1>
       <p data-testid="data-atual" className={estilos.data}>{`${
         diasDaSemana[hoje.getDay()]
       }, ${hoje.toLocaleDateString('pt-BR')}`}</p>
