@@ -1,12 +1,9 @@
 describe('Formulário de Login', () => {
-  beforeEach(() => {
-    cy.login('neilton@alura.com', '123456');
-  });
-
   it('Deve acessar a página home', () => {
+    cy.login('neilton@alura.com', '123456');
+    cy.visit('/home');
     cy.getByData('titulo-boas-vindas').should('contain', 'Bem vindo de volta!');
   });
-
   // it('Não deve permitir um endereço de email inválido', () => {
   //   cy.getByData('botao-login').click();
   //   cy.getByData('email-input').type('neilton@alura');
