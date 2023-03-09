@@ -1,9 +1,17 @@
 describe('Formulário de Login', () => {
   it('Deve acessar a página home', () => {
-    cy.login('neilton@alura.com', '123456');
-    cy.visit('/home');
-    cy.getByData('titulo-boas-vindas').should('contain', 'Bem vindo de volta!');
+    cy.fixture('usuarios').then((usuario) => {
+      cy.login(usuario[1].email, usuario[1].senha);
+      cy.visit('/home');
+      cy.url().should('include', '/home');
+      cy.getByData('titulo-boas-vindas').should(
+        'contain',
+        'Bem vindo de volta!'
+      );
+      cy.contains(usuario[1].nome).should('be.visible');
+    });
   });
+
   // it('Não deve permitir um endereço de email inválido', () => {
   //   cy.getByData('botao-login').click();
   //   cy.getByData('email-input').type('neilton@alura');
