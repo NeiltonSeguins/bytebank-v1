@@ -48,19 +48,6 @@ export const FormConta = () => {
           ) : (
             ''
           )}
-          <label htmlFor="email">Email</label>
-          <input
-            type="text"
-            name="email"
-            value={email}
-            placeholder="joanadasilva@email.com.br"
-            onChange={handleChange}
-          />
-          {erro.path === 'email' ? (
-            <span data-test="mensagem-erro">{erro.message}</span>
-          ) : (
-            ''
-          )}
           <label htmlFor="senha">Senha</label>
           <input
             type="text"
@@ -76,9 +63,7 @@ export const FormConta = () => {
           )}
           <button
             type="submit"
-            disabled={
-              nome === '' || email === '' || senha === '' ? true : false
-            }
+            disabled={nome === '' || senha === '' ? true : false}
             data-test="botao-salvar-alteracoes"
             className={estilos.botao}
           >

@@ -1,5 +1,10 @@
 [
   {
+    "nome": "Fulano de Tal",
+    "email": "fulano@teste.com",
+    "senha": "123456"
+  },
+  {
     "nome": "Vinicius Neves",
     "email": "vinny@alura.com",
     "senha": "789456"
