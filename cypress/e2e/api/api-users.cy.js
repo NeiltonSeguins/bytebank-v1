@@ -30,28 +30,44 @@ it('Deve retornar um erro quando o usuário for inválido', function () {
   });
 });
 
-  context('Interceptando solicitações de rede', () => {
-    it('Testando interceptação de login', () => {
-      cy.intercept('POST', 'users/login').as('loginRequest');
+context('Interceptando solicitações de rede', () => {
+  it('Testando interceptação de login', () => {
+    cy.intercept('POST', 'users/login').as('loginRequest');
 
-      cy.login('neilton@alura.com', '123456');
+    cy.login('neilton@alura.com', '123456');
 
-      cy.wait('@loginRequest').then((interception) => {
-        // Simulando uma resposta de sucesso
-        interception.response = {
-          statusCode: 200,
-          body: {
-            success: true,
-            message: 'Login bem sucedido!',
-          },
-        };
-        cy.visit('/home');
+    cy.wait('@loginRequest').then((interception) => {
+      // Simulando uma resposta de sucesso
+      interception.response = {
+        statusCode: 200,
+        body: {
+          success: true,
+          message: 'Login bem sucedido!',
+        },
+      };
+      cy.visit('/home');
 
-        // Verificando o comportamento da aplicação após o login
-        cy.getByData('titulo-boas-vindas').should(
-          'contain.text',
-          'Bem vindo de volta!'
-        );
-      });
+      // Verificando o comportamento da aplicação após o login
+      cy.getByData('titulo-boas-vindas').should(
+        'contain.text',
+        'Bem vindo de volta!'
+      );
     });
   });
+  Cypress.session.clearAllSavedSessions();
+});
+
+context('Fazendo login com variáveis de ambiente', function () {
+  it('Deve permitir o login do usuário Neilton', function () {
+    cy.request({
+      method: 'POST',
+      url: 'http://localhost:8000/users/login',
+      body: Cypress.env(),
+    }).then((response) => {
+      expect(response.status).to.eq(200);
+      expect(response.body).is.not.empty;
+      expect(response.body.user).to.have.property('nome');
+      expect(response.body.user.nome).to.be.equal('Neilton Seguins');
+    });
+  });
+});
