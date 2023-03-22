@@ -1,0 +1,6624 @@
+{
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\services\\api.js": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\services\\api.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 12
+        },
+        "end": {
+          "line": 9,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 25,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 14,
+          "column": 18
+        },
+        "end": {
+          "line": 14,
+          "column": 49
+        }
+      },
+      "3": {
+        "start": {
+          "line": 15,
+          "column": 4
+        },
+        "end": {
+          "line": 17,
+          "column": 5
+        }
+      },
+      "4": {
+        "start": {
+          "line": 16,
+          "column": 6
+        },
+        "end": {
+          "line": 16,
+          "column": 55
+        }
+      },
+      "5": {
+        "start": {
+          "line": 18,
+          "column": 4
+        },
+        "end": {
+          "line": 18,
+          "column": 18
+        }
+      },
+      "6": {
+        "start": {
+          "line": 22,
+          "column": 4
+        },
+        "end": {
+          "line": 22,
+          "column": 48
+        }
+      },
+      "7": {
+        "start": {
+          "line": 23,
+          "column": 4
+        },
+        "end": {
+          "line": 23,
+          "column": 33
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 2
+          },
+          "end": {
+            "line": 12,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 20
+          },
+          "end": {
+            "line": 19,
+            "column": 3
+          }
+        },
+        "line": 12
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 20,
+            "column": 2
+          },
+          "end": {
+            "line": 20,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 19
+          },
+          "end": {
+            "line": 24,
+            "column": 3
+          }
+        },
+        "line": 20
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 4
+          },
+          "end": {
+            "line": 17,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 15,
+              "column": 4
+            },
+            "end": {
+              "line": 17,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 15,
+              "column": 4
+            },
+            "end": {
+              "line": 17,
+              "column": 5
+            }
+          }
+        ],
+        "line": 15
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 8
+          },
+          "end": {
+            "line": 15,
+            "column": 31
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 15,
+              "column": 8
+            },
+            "end": {
+              "line": 15,
+              "column": 13
+            }
+          },
+          {
+            "start": {
+              "line": 15,
+              "column": 17
+            },
+            "end": {
+              "line": 15,
+              "column": 31
+            }
+          }
+        ],
+        "line": 15
+      }
+    },
+    "s": {
+      "0": 2,
+      "1": 2,
+      "2": 12,
+      "3": 12,
+      "4": 0,
+      "5": 12,
+      "6": 0,
+      "7": 0
+    },
+    "f": {
+      "0": 12,
+      "1": 0
+    },
+    "b": {
+      "0": [
+        0,
+        12
+      ],
+      "1": [
+        12,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "9cddcd25ffddcd1f9c8d48bb7bbd695ec585a65a"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\validacoes\\validaFomulario.js": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\validacoes\\validaFomulario.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 20
+        },
+        "end": {
+          "line": 10,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 23
+        },
+        "end": {
+          "line": 19,
+          "column": 4
+        }
+      },
+      "2": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 28,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 22,
+          "column": 4
+        },
+        "end": {
+          "line": 22,
+          "column": 62
+        }
+      },
+      "4": {
+        "start": {
+          "line": 22,
+          "column": 26
+        },
+        "end": {
+          "line": 22,
+          "column": 62
+        }
+      },
+      "5": {
+        "start": {
+          "line": 23,
+          "column": 4
+        },
+        "end": {
+          "line": 23,
+          "column": 53
+        }
+      },
+      "6": {
+        "start": {
+          "line": 23,
+          "column": 20
+        },
+        "end": {
+          "line": 23,
+          "column": 53
+        }
+      },
+      "7": {
+        "start": {
+          "line": 25,
+          "column": 4
+        },
+        "end": {
+          "line": 25,
+          "column": 75
+        }
+      },
+      "8": {
+        "start": {
+          "line": 27,
+          "column": 4
+        },
+        "end": {
+          "line": 27,
+          "column": 67
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "validaDadosFormulario",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 15
+          },
+          "end": {
+            "line": 3,
+            "column": 36
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 43
+          },
+          "end": {
+            "line": 29,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 4
+          },
+          "end": {
+            "line": 22,
+            "column": 62
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 22,
+              "column": 4
+            },
+            "end": {
+              "line": 22,
+              "column": 62
+            }
+          },
+          {
+            "start": {
+              "line": 22,
+              "column": 4
+            },
+            "end": {
+              "line": 22,
+              "column": 62
+            }
+          }
+        ],
+        "line": 22
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 4
+          },
+          "end": {
+            "line": 23,
+            "column": 53
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 23,
+              "column": 4
+            },
+            "end": {
+              "line": 23,
+              "column": 53
+            }
+          },
+          {
+            "start": {
+              "line": 23,
+              "column": 4
+            },
+            "end": {
+              "line": 23,
+              "column": 53
+            }
+          }
+        ],
+        "line": 23
+      }
+    },
+    "s": {
+      "0": 2,
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 0,
+      "5": 2,
+      "6": 0,
+      "7": 2,
+      "8": 0
+    },
+    "f": {
+      "0": 2
+    },
+    "b": {
+      "0": [
+        0,
+        2
+      ],
+      "1": [
+        0,
+        2
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "fa807f31bbf47886bfd1621e5ed6275b285bcc42"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\componentes\\Botao\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\componentes\\Botao\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 15,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Botao",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 29
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 79
+          },
+          "end": {
+            "line": 16,
+            "column": 1
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 48
+          },
+          "end": {
+            "line": 4,
+            "column": 65
+          }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": {
+              "line": 4,
+              "column": 55
+            },
+            "end": {
+              "line": 4,
+              "column": 65
+            }
+          }
+        ],
+        "line": 4
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 8
+          },
+          "end": {
+            "line": 9,
+            "column": 79
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 32
+            },
+            "end": {
+              "line": 9,
+              "column": 55
+            }
+          },
+          {
+            "start": {
+              "line": 9,
+              "column": 58
+            },
+            "end": {
+              "line": 9,
+              "column": 79
+            }
+          }
+        ],
+        "line": 9
+      }
+    },
+    "s": {
+      "0": 162
+    },
+    "f": {
+      "0": 162
+    },
+    "b": {
+      "0": [
+        154
+      ],
+      "1": [
+        8,
+        154
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "51e235e23c2374dbf3be07a14af5cb7a64c801e8"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\context\\ModalContext.js": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\context\\ModalContext.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 28
+        },
+        "end": {
+          "line": 3,
+          "column": 43
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 29
+        },
+        "end": {
+          "line": 27,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 26
+        },
+        "end": {
+          "line": 6,
+          "column": 38
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 28
+        },
+        "end": {
+          "line": 7,
+          "column": 40
+        }
+      },
+      "4": {
+        "start": {
+          "line": 8,
+          "column": 28
+        },
+        "end": {
+          "line": 8,
+          "column": 40
+        }
+      },
+      "5": {
+        "start": {
+          "line": 9,
+          "column": 26
+        },
+        "end": {
+          "line": 9,
+          "column": 38
+        }
+      },
+      "6": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 26,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 29
+          },
+          "end": {
+            "line": 5,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 47
+          },
+          "end": {
+            "line": 27,
+            "column": 1
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 2,
+      "2": 146,
+      "3": 146,
+      "4": 146,
+      "5": 146,
+      "6": 146
+    },
+    "f": {
+      "0": 146
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "e3754af4ee2e7f6c568173878478b32e59ae8954"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\hooks\\useModalContext.js": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\hooks\\useModalContext.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 31
+        },
+        "end": {
+          "line": 191,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 6,
+          "column": 28
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 23
+        },
+        "end": {
+          "line": 23,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 28
+        },
+        "end": {
+          "line": 9,
+          "column": 36
+        }
+      },
+      "4": {
+        "start": {
+          "line": 10,
+          "column": 4
+        },
+        "end": {
+          "line": 22,
+          "column": 5
+        }
+      },
+      "5": {
+        "start": {
+          "line": 12,
+          "column": 8
+        },
+        "end": {
+          "line": 12,
+          "column": 23
+        }
+      },
+      "6": {
+        "start": {
+          "line": 13,
+          "column": 8
+        },
+        "end": {
+          "line": 13,
+          "column": 14
+        }
+      },
+      "7": {
+        "start": {
+          "line": 15,
+          "column": 8
+        },
+        "end": {
+          "line": 15,
+          "column": 24
+        }
+      },
+      "8": {
+        "start": {
+          "line": 16,
+          "column": 8
+        },
+        "end": {
+          "line": 16,
+          "column": 14
+        }
+      },
+      "9": {
+        "start": {
+          "line": 18,
+          "column": 8
+        },
+        "end": {
+          "line": 18,
+          "column": 24
+        }
+      },
+      "10": {
+        "start": {
+          "line": 19,
+          "column": 8
+        },
+        "end": {
+          "line": 19,
+          "column": 14
+        }
+      },
+      "11": {
+        "start": {
+          "line": 21,
+          "column": 8
+        },
+        "end": {
+          "line": 21,
+          "column": 51
+        }
+      },
+      "12": {
+        "start": {
+          "line": 25,
+          "column": 27
+        },
+        "end": {
+          "line": 72,
+          "column": 3
+        }
+      },
+      "13": {
+        "start": {
+          "line": 31,
+          "column": 4
+        },
+        "end": {
+          "line": 31,
+          "column": 27
+        }
+      },
+      "14": {
+        "start": {
+          "line": 32,
+          "column": 20
+        },
+        "end": {
+          "line": 36,
+          "column": 5
+        }
+      },
+      "15": {
+        "start": {
+          "line": 38,
+          "column": 19
+        },
+        "end": {
+          "line": 38,
+          "column": 55
+        }
+      },
+      "16": {
+        "start": {
+          "line": 40,
+          "column": 4
+        },
+        "end": {
+          "line": 46,
+          "column": 5
+        }
+      },
+      "17": {
+        "start": {
+          "line": 41,
+          "column": 6
+        },
+        "end": {
+          "line": 44,
+          "column": 9
+        }
+      },
+      "18": {
+        "start": {
+          "line": 45,
+          "column": 6
+        },
+        "end": {
+          "line": 45,
+          "column": 13
+        }
+      },
+      "19": {
+        "start": {
+          "line": 48,
+          "column": 4
+        },
+        "end": {
+          "line": 71,
+          "column": 9
+        }
+      },
+      "20": {
+        "start": {
+          "line": 51,
+          "column": 8
+        },
+        "end": {
+          "line": 54,
+          "column": 11
+        }
+      },
+      "21": {
+        "start": {
+          "line": 55,
+          "column": 8
+        },
+        "end": {
+          "line": 55,
+          "column": 20
+        }
+      },
+      "22": {
+        "start": {
+          "line": 56,
+          "column": 8
+        },
+        "end": {
+          "line": 56,
+          "column": 21
+        }
+      },
+      "23": {
+        "start": {
+          "line": 57,
+          "column": 8
+        },
+        "end": {
+          "line": 57,
+          "column": 21
+        }
+      },
+      "24": {
+        "start": {
+          "line": 58,
+          "column": 8
+        },
+        "end": {
+          "line": 64,
+          "column": 17
+        }
+      },
+      "25": {
+        "start": {
+          "line": 59,
+          "column": 10
+        },
+        "end": {
+          "line": 59,
+          "column": 21
+        }
+      },
+      "26": {
+        "start": {
+          "line": 60,
+          "column": 10
+        },
+        "end": {
+          "line": 63,
+          "column": 13
+        }
+      },
+      "27": {
+        "start": {
+          "line": 67,
+          "column": 8
+        },
+        "end": {
+          "line": 70,
+          "column": 11
+        }
+      },
+      "28": {
+        "start": {
+          "line": 74,
+          "column": 24
+        },
+        "end": {
+          "line": 123,
+          "column": 3
+        }
+      },
+      "29": {
+        "start": {
+          "line": 81,
+          "column": 4
+        },
+        "end": {
+          "line": 81,
+          "column": 27
+        }
+      },
+      "30": {
+        "start": {
+          "line": 82,
+          "column": 20
+        },
+        "end": {
+          "line": 85,
+          "column": 5
+        }
+      },
+      "31": {
+        "start": {
+          "line": 87,
+          "column": 19
+        },
+        "end": {
+          "line": 87,
+          "column": 55
+        }
+      },
+      "32": {
+        "start": {
+          "line": 88,
+          "column": 4
+        },
+        "end": {
+          "line": 94,
+          "column": 5
+        }
+      },
+      "33": {
+        "start": {
+          "line": 89,
+          "column": 6
+        },
+        "end": {
+          "line": 92,
+          "column": 9
+        }
+      },
+      "34": {
+        "start": {
+          "line": 93,
+          "column": 6
+        },
+        "end": {
+          "line": 93,
+          "column": 13
+        }
+      },
+      "35": {
+        "start": {
+          "line": 96,
+          "column": 4
+        },
+        "end": {
+          "line": 122,
+          "column": 9
+        }
+      },
+      "36": {
+        "start": {
+          "line": 99,
+          "column": 8
+        },
+        "end": {
+          "line": 99,
+          "column": 68
+        }
+      },
+      "37": {
+        "start": {
+          "line": 100,
+          "column": 8
+        },
+        "end": {
+          "line": 100,
+          "column": 62
+        }
+      },
+      "38": {
+        "start": {
+          "line": 101,
+          "column": 8
+        },
+        "end": {
+          "line": 101,
+          "column": 69
+        }
+      },
+      "39": {
+        "start": {
+          "line": 102,
+          "column": 8
+        },
+        "end": {
+          "line": 102,
+          "column": 21
+        }
+      },
+      "40": {
+        "start": {
+          "line": 103,
+          "column": 8
+        },
+        "end": {
+          "line": 103,
+          "column": 21
+        }
+      },
+      "41": {
+        "start": {
+          "line": 104,
+          "column": 8
+        },
+        "end": {
+          "line": 107,
+          "column": 11
+        }
+      },
+      "42": {
+        "start": {
+          "line": 108,
+          "column": 8
+        },
+        "end": {
+          "line": 108,
+          "column": 25
+        }
+      },
+      "43": {
+        "start": {
+          "line": 111,
+          "column": 8
+        },
+        "end": {
+          "line": 121,
+          "column": 9
+        }
+      },
+      "44": {
+        "start": {
+          "line": 112,
+          "column": 10
+        },
+        "end": {
+          "line": 115,
+          "column": 13
+        }
+      },
+      "45": {
+        "start": {
+          "line": 117,
+          "column": 10
+        },
+        "end": {
+          "line": 119,
+          "column": 12
+        }
+      },
+      "46": {
+        "start": {
+          "line": 120,
+          "column": 10
+        },
+        "end": {
+          "line": 120,
+          "column": 21
+        }
+      },
+      "47": {
+        "start": {
+          "line": 125,
+          "column": 29
+        },
+        "end": {
+          "line": 175,
+          "column": 3
+        }
+      },
+      "48": {
+        "start": {
+          "line": 132,
+          "column": 4
+        },
+        "end": {
+          "line": 132,
+          "column": 27
+        }
+      },
+      "49": {
+        "start": {
+          "line": 133,
+          "column": 20
+        },
+        "end": {
+          "line": 137,
+          "column": 5
+        }
+      },
+      "50": {
+        "start": {
+          "line": 139,
+          "column": 19
+        },
+        "end": {
+          "line": 139,
+          "column": 55
+        }
+      },
+      "51": {
+        "start": {
+          "line": 141,
+          "column": 4
+        },
+        "end": {
+          "line": 147,
+          "column": 5
+        }
+      },
+      "52": {
+        "start": {
+          "line": 142,
+          "column": 6
+        },
+        "end": {
+          "line": 145,
+          "column": 9
+        }
+      },
+      "53": {
+        "start": {
+          "line": 146,
+          "column": 6
+        },
+        "end": {
+          "line": 146,
+          "column": 13
+        }
+      },
+      "54": {
+        "start": {
+          "line": 149,
+          "column": 4
+        },
+        "end": {
+          "line": 174,
+          "column": 9
+        }
+      },
+      "55": {
+        "start": {
+          "line": 152,
+          "column": 8
+        },
+        "end": {
+          "line": 152,
+          "column": 50
+        }
+      },
+      "56": {
+        "start": {
+          "line": 153,
+          "column": 8
+        },
+        "end": {
+          "line": 153,
+          "column": 48
+        }
+      },
+      "57": {
+        "start": {
+          "line": 154,
+          "column": 8
+        },
+        "end": {
+          "line": 157,
+          "column": 11
+        }
+      },
+      "58": {
+        "start": {
+          "line": 158,
+          "column": 8
+        },
+        "end": {
+          "line": 158,
+          "column": 20
+        }
+      },
+      "59": {
+        "start": {
+          "line": 159,
+          "column": 8
+        },
+        "end": {
+          "line": 159,
+          "column": 21
+        }
+      },
+      "60": {
+        "start": {
+          "line": 160,
+          "column": 8
+        },
+        "end": {
+          "line": 160,
+          "column": 21
+        }
+      },
+      "61": {
+        "start": {
+          "line": 161,
+          "column": 8
+        },
+        "end": {
+          "line": 161,
+          "column": 26
+        }
+      },
+      "62": {
+        "start": {
+          "line": 162,
+          "column": 8
+        },
+        "end": {
+          "line": 167,
+          "column": 17
+        }
+      },
+      "63": {
+        "start": {
+          "line": 163,
+          "column": 10
+        },
+        "end": {
+          "line": 166,
+          "column": 13
+        }
+      },
+      "64": {
+        "start": {
+          "line": 170,
+          "column": 8
+        },
+        "end": {
+          "line": 173,
+          "column": 11
+        }
+      },
+      "65": {
+        "start": {
+          "line": 177,
+          "column": 2
+        },
+        "end": {
+          "line": 190,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 31
+          },
+          "end": {
+            "line": 4,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 37
+          },
+          "end": {
+            "line": 191,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 23
+          },
+          "end": {
+            "line": 8,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 30
+          },
+          "end": {
+            "line": 23,
+            "column": 3
+          }
+        },
+        "line": 8
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 25,
+            "column": 27
+          },
+          "end": {
+            "line": 25,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 7
+          },
+          "end": {
+            "line": 72,
+            "column": 3
+          }
+        },
+        "line": 30
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 50,
+            "column": 12
+          },
+          "end": {
+            "line": 50,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 50,
+            "column": 18
+          },
+          "end": {
+            "line": 65,
+            "column": 7
+          }
+        },
+        "line": 50
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 58,
+            "column": 19
+          },
+          "end": {
+            "line": 58,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 58,
+            "column": 25
+          },
+          "end": {
+            "line": 64,
+            "column": 9
+          }
+        },
+        "line": 58
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 66,
+            "column": 13
+          },
+          "end": {
+            "line": 66,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 66,
+            "column": 23
+          },
+          "end": {
+            "line": 71,
+            "column": 7
+          }
+        },
+        "line": 66
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 74,
+            "column": 24
+          },
+          "end": {
+            "line": 74,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 80,
+            "column": 7
+          },
+          "end": {
+            "line": 123,
+            "column": 3
+          }
+        },
+        "line": 80
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 98,
+            "column": 12
+          },
+          "end": {
+            "line": 98,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 98,
+            "column": 26
+          },
+          "end": {
+            "line": 109,
+            "column": 7
+          }
+        },
+        "line": 98
+      },
+      "8": {
+        "name": "(anonymous_8)",
+        "decl": {
+          "start": {
+            "line": 110,
+            "column": 13
+          },
+          "end": {
+            "line": 110,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 110,
+            "column": 23
+          },
+          "end": {
+            "line": 122,
+            "column": 7
+          }
+        },
+        "line": 110
+      },
+      "9": {
+        "name": "(anonymous_9)",
+        "decl": {
+          "start": {
+            "line": 125,
+            "column": 29
+          },
+          "end": {
+            "line": 125,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 131,
+            "column": 7
+          },
+          "end": {
+            "line": 175,
+            "column": 3
+          }
+        },
+        "line": 131
+      },
+      "10": {
+        "name": "(anonymous_10)",
+        "decl": {
+          "start": {
+            "line": 151,
+            "column": 12
+          },
+          "end": {
+            "line": 151,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 151,
+            "column": 18
+          },
+          "end": {
+            "line": 168,
+            "column": 7
+          }
+        },
+        "line": 151
+      },
+      "11": {
+        "name": "(anonymous_11)",
+        "decl": {
+          "start": {
+            "line": 162,
+            "column": 19
+          },
+          "end": {
+            "line": 162,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 162,
+            "column": 25
+          },
+          "end": {
+            "line": 167,
+            "column": 9
+          }
+        },
+        "line": 162
+      },
+      "12": {
+        "name": "(anonymous_12)",
+        "decl": {
+          "start": {
+            "line": 169,
+            "column": 13
+          },
+          "end": {
+            "line": 169,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 169,
+            "column": 23
+          },
+          "end": {
+            "line": 174,
+            "column": 7
+          }
+        },
+        "line": 169
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 4
+          },
+          "end": {
+            "line": 22,
+            "column": 5
+          }
+        },
+        "type": "switch",
+        "locations": [
+          {
+            "start": {
+              "line": 11,
+              "column": 6
+            },
+            "end": {
+              "line": 13,
+              "column": 14
+            }
+          },
+          {
+            "start": {
+              "line": 14,
+              "column": 6
+            },
+            "end": {
+              "line": 16,
+              "column": 14
+            }
+          },
+          {
+            "start": {
+              "line": 17,
+              "column": 6
+            },
+            "end": {
+              "line": 19,
+              "column": 14
+            }
+          },
+          {
+            "start": {
+              "line": 20,
+              "column": 6
+            },
+            "end": {
+              "line": 21,
+              "column": 51
+            }
+          }
+        ],
+        "line": 10
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 40,
+            "column": 4
+          },
+          "end": {
+            "line": 46,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 40,
+              "column": 4
+            },
+            "end": {
+              "line": 46,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 40,
+              "column": 4
+            },
+            "end": {
+              "line": 46,
+              "column": 5
+            }
+          }
+        ],
+        "line": 40
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 88,
+            "column": 4
+          },
+          "end": {
+            "line": 94,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 88,
+              "column": 4
+            },
+            "end": {
+              "line": 94,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 88,
+              "column": 4
+            },
+            "end": {
+              "line": 94,
+              "column": 5
+            }
+          }
+        ],
+        "line": 88
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 111,
+            "column": 8
+          },
+          "end": {
+            "line": 121,
+            "column": 9
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 111,
+              "column": 8
+            },
+            "end": {
+              "line": 121,
+              "column": 9
+            }
+          },
+          {
+            "start": {
+              "line": 111,
+              "column": 8
+            },
+            "end": {
+              "line": 121,
+              "column": 9
+            }
+          }
+        ],
+        "line": 111
+      },
+      "4": {
+        "loc": {
+          "start": {
+            "line": 141,
+            "column": 4
+          },
+          "end": {
+            "line": 147,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 141,
+              "column": 4
+            },
+            "end": {
+              "line": 147,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 141,
+              "column": 4
+            },
+            "end": {
+              "line": 147,
+              "column": 5
+            }
+          }
+        ],
+        "line": 141
+      }
+    },
+    "s": {
+      "0": 2,
+      "1": 300,
+      "2": 300,
+      "3": 69,
+      "4": 69,
+      "5": 29,
+      "6": 29,
+      "7": 28,
+      "8": 28,
+      "9": 12,
+      "10": 12,
+      "11": 0,
+      "12": 300,
+      "13": 2,
+      "14": 2,
+      "15": 2,
+      "16": 2,
+      "17": 0,
+      "18": 0,
+      "19": 2,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0,
+      "27": 2,
+      "28": 300,
+      "29": 0,
+      "30": 0,
+      "31": 0,
+      "32": 0,
+      "33": 0,
+      "34": 0,
+      "35": 0,
+      "36": 0,
+      "37": 0,
+      "38": 0,
+      "39": 0,
+      "40": 0,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "47": 300,
+      "48": 0,
+      "49": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 0,
+      "57": 0,
+      "58": 0,
+      "59": 0,
+      "60": 0,
+      "61": 0,
+      "62": 0,
+      "63": 0,
+      "64": 0,
+      "65": 300
+    },
+    "f": {
+      "0": 300,
+      "1": 69,
+      "2": 2,
+      "3": 0,
+      "4": 0,
+      "5": 2,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "b": {
+      "0": [
+        29,
+        28,
+        12,
+        0
+      ],
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "d844e33d87bc72d2fe2cb3c385c2c6469b1920ad"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\componentes\\ModalCadastroUsuario\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\componentes\\ModalCadastroUsuario\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 11,
+          "column": 4
+        },
+        "end": {
+          "line": 11,
+          "column": 33
+        }
+      },
+      "1": {
+        "start": {
+          "line": 13,
+          "column": 2
+        },
+        "end": {
+          "line": 15,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 14,
+          "column": 4
+        },
+        "end": {
+          "line": 14,
+          "column": 17
+        }
+      },
+      "3": {
+        "start": {
+          "line": 17,
+          "column": 2
+        },
+        "end": {
+          "line": 114,
+          "column": 4
+        }
+      },
+      "4": {
+        "start": {
+          "line": 44,
+          "column": 14
+        },
+        "end": {
+          "line": 44,
+          "column": 75
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "ModalCadastroUsuario",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 24
+          },
+          "end": {
+            "line": 9,
+            "column": 44
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 67
+          },
+          "end": {
+            "line": 115,
+            "column": 1
+          }
+        },
+        "line": 9
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 43,
+            "column": 22
+          },
+          "end": {
+            "line": 43,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 44,
+            "column": 14
+          },
+          "end": {
+            "line": 44,
+            "column": 75
+          }
+        },
+        "line": 44
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 2
+          },
+          "end": {
+            "line": 15,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 13,
+              "column": 2
+            },
+            "end": {
+              "line": 15,
+              "column": 3
+            }
+          },
+          {
+            "start": {
+              "line": 13,
+              "column": 2
+            },
+            "end": {
+              "line": 15,
+              "column": 3
+            }
+          }
+        ],
+        "line": 13
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 34,
+            "column": 11
+          },
+          "end": {
+            "line": 38,
+            "column": 11
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 35,
+              "column": 12
+            },
+            "end": {
+              "line": 35,
+              "column": 68
+            }
+          },
+          {
+            "start": {
+              "line": 37,
+              "column": 12
+            },
+            "end": {
+              "line": 37,
+              "column": 14
+            }
+          }
+        ],
+        "line": 34
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 59,
+            "column": 15
+          },
+          "end": {
+            "line": 63,
+            "column": 15
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 60,
+              "column": 16
+            },
+            "end": {
+              "line": 60,
+              "column": 69
+            }
+          },
+          {
+            "start": {
+              "line": 62,
+              "column": 16
+            },
+            "end": {
+              "line": 62,
+              "column": 18
+            }
+          }
+        ],
+        "line": 59
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 75,
+            "column": 15
+          },
+          "end": {
+            "line": 79,
+            "column": 15
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 76,
+              "column": 16
+            },
+            "end": {
+              "line": 76,
+              "column": 69
+            }
+          },
+          {
+            "start": {
+              "line": 78,
+              "column": 16
+            },
+            "end": {
+              "line": 78,
+              "column": 18
+            }
+          }
+        ],
+        "line": 75
+      },
+      "4": {
+        "loc": {
+          "start": {
+            "line": 92,
+            "column": 15
+          },
+          "end": {
+            "line": 96,
+            "column": 15
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 93,
+              "column": 16
+            },
+            "end": {
+              "line": 93,
+              "column": 69
+            }
+          },
+          {
+            "start": {
+              "line": 95,
+              "column": 16
+            },
+            "end": {
+              "line": 95,
+              "column": 18
+            }
+          }
+        ],
+        "line": 92
+      }
+    },
+    "s": {
+      "0": 150,
+      "1": 150,
+      "2": 4,
+      "3": 146,
+      "4": 2
+    },
+    "f": {
+      "0": 150,
+      "1": 2
+    },
+    "b": {
+      "0": [
+        4,
+        146
+      ],
+      "1": [
+        0,
+        146
+      ],
+      "2": [
+        0,
+        146
+      ],
+      "3": [
+        4,
+        142
+      ],
+      "4": [
+        0,
+        146
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ed69aafc5f85a8bd4309761c40e396feacf3914d"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\componentes\\ModalLoginUsuario\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\componentes\\ModalLoginUsuario\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 15,
+          "column": 4
+        },
+        "end": {
+          "line": 15,
+          "column": 33
+        }
+      },
+      "1": {
+        "start": {
+          "line": 17,
+          "column": 2
+        },
+        "end": {
+          "line": 19,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 18,
+          "column": 4
+        },
+        "end": {
+          "line": 18,
+          "column": 17
+        }
+      },
+      "3": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 95,
+          "column": 4
+        }
+      },
+      "4": {
+        "start": {
+          "line": 43,
+          "column": 14
+        },
+        "end": {
+          "line": 49,
+          "column": 15
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "ModalLoginUsuario",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 24
+          },
+          "end": {
+            "line": 9,
+            "column": 41
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 3
+          },
+          "end": {
+            "line": 96,
+            "column": 1
+          }
+        },
+        "line": 13
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 42,
+            "column": 22
+          },
+          "end": {
+            "line": 42,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 43,
+            "column": 14
+          },
+          "end": {
+            "line": 49,
+            "column": 15
+          }
+        },
+        "line": 43
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 2
+          },
+          "end": {
+            "line": 19,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 17,
+              "column": 2
+            },
+            "end": {
+              "line": 19,
+              "column": 3
+            }
+          },
+          {
+            "start": {
+              "line": 17,
+              "column": 2
+            },
+            "end": {
+              "line": 19,
+              "column": 3
+            }
+          }
+        ],
+        "line": 17
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 11
+          },
+          "end": {
+            "line": 39,
+            "column": 73
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 39,
+              "column": 41
+            },
+            "end": {
+              "line": 39,
+              "column": 68
+            }
+          },
+          {
+            "start": {
+              "line": 39,
+              "column": 71
+            },
+            "end": {
+              "line": 39,
+              "column": 73
+            }
+          }
+        ],
+        "line": 39
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 64,
+            "column": 15
+          },
+          "end": {
+            "line": 68,
+            "column": 15
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 65,
+              "column": 16
+            },
+            "end": {
+              "line": 65,
+              "column": 69
+            }
+          },
+          {
+            "start": {
+              "line": 67,
+              "column": 16
+            },
+            "end": {
+              "line": 67,
+              "column": 18
+            }
+          }
+        ],
+        "line": 64
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 81,
+            "column": 15
+          },
+          "end": {
+            "line": 85,
+            "column": 15
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 82,
+              "column": 16
+            },
+            "end": {
+              "line": 82,
+              "column": 69
+            }
+          },
+          {
+            "start": {
+              "line": 84,
+              "column": 16
+            },
+            "end": {
+              "line": 84,
+              "column": 18
+            }
+          }
+        ],
+        "line": 81
+      }
+    },
+    "s": {
+      "0": 150,
+      "1": 150,
+      "2": 150,
+      "3": 0,
+      "4": 0
+    },
+    "f": {
+      "0": 150,
+      "1": 0
+    },
+    "b": {
+      "0": [
+        150,
+        0
+      ],
+      "1": [
+        0,
+        0
+      ],
+      "2": [
+        0,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f9892b0a99e28a66ebbe85841349a4dccf40136f"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\componentes\\Cabecalho\\BurguerIcon\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\componentes\\Cabecalho\\BurguerIcon\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 12,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "BurguerIcon",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 24
+          },
+          "end": {
+            "line": 3,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 38
+          },
+          "end": {
+            "line": 13,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "0186b0db9e272f0da04cb666de9b8b6a2a94dfc0"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\componentes\\Cabecalho\\BurguerIcon\\MenuLateral\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\componentes\\Cabecalho\\BurguerIcon\\MenuLateral\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 25
+        },
+        "end": {
+          "line": 10,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 17,
+          "column": 2
+        },
+        "end": {
+          "line": 49,
+          "column": 4
+        }
+      },
+      "2": {
+        "start": {
+          "line": 21,
+          "column": 23
+        },
+        "end": {
+          "line": 21,
+          "column": 41
+        }
+      },
+      "3": {
+        "start": {
+          "line": 26,
+          "column": 8
+        },
+        "end": {
+          "line": 40,
+          "column": 10
+        }
+      },
+      "4": {
+        "start": {
+          "line": 44,
+          "column": 61
+        },
+        "end": {
+          "line": 44,
+          "column": 78
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "MenuLateral",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 24
+          },
+          "end": {
+            "line": 12,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 3
+          },
+          "end": {
+            "line": 50,
+            "column": 1
+          }
+        },
+        "line": 16
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 21,
+            "column": 17
+          },
+          "end": {
+            "line": 21,
+            "column": 18
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 23
+          },
+          "end": {
+            "line": 21,
+            "column": 41
+          }
+        },
+        "line": 21
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 25,
+            "column": 28
+          },
+          "end": {
+            "line": 25,
+            "column": 29
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 46
+          },
+          "end": {
+            "line": 41,
+            "column": 7
+          }
+        },
+        "line": 25
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 44,
+            "column": 55
+          },
+          "end": {
+            "line": 44,
+            "column": 56
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 44,
+            "column": 61
+          },
+          "end": {
+            "line": 44,
+            "column": 78
+          }
+        },
+        "line": 44
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 31,
+            "column": 16
+          },
+          "end": {
+            "line": 31,
+            "column": 55
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 31,
+              "column": 16
+            },
+            "end": {
+              "line": 31,
+              "column": 34
+            }
+          },
+          {
+            "start": {
+              "line": 31,
+              "column": 38
+            },
+            "end": {
+              "line": 31,
+              "column": 55
+            }
+          }
+        ],
+        "line": 31
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 36,
+            "column": 13
+          },
+          "end": {
+            "line": 38,
+            "column": 13
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 36,
+              "column": 13
+            },
+            "end": {
+              "line": 36,
+              "column": 51
+            }
+          },
+          {
+            "start": {
+              "line": 37,
+              "column": 14
+            },
+            "end": {
+              "line": 37,
+              "column": 49
+            }
+          }
+        ],
+        "line": 36
+      }
+    },
+    "s": {
+      "0": 2,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "b": {
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        0,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "8b6cc3224cd18b324a2d033c34770413cbbdfc1f"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\context\\CabecalhoContext.js": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\context\\CabecalhoContext.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 32
+        },
+        "end": {
+          "line": 3,
+          "column": 47
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 33
+        },
+        "end": {
+          "line": 24,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 56
+        },
+        "end": {
+          "line": 6,
+          "column": 71
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 50
+        },
+        "end": {
+          "line": 7,
+          "column": 65
+        }
+      },
+      "4": {
+        "start": {
+          "line": 8,
+          "column": 40
+        },
+        "end": {
+          "line": 8,
+          "column": 55
+        }
+      },
+      "5": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 23,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 33
+          },
+          "end": {
+            "line": 5,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 51
+          },
+          "end": {
+            "line": 24,
+            "column": 1
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 2,
+      "2": 8,
+      "3": 8,
+      "4": 8,
+      "5": 8
+    },
+    "f": {
+      "0": 8
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "b78f7b48cbcf5e52e7b19b567d823fb4870e1cdf"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\hooks\\useCabecalhoContext.js": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\hooks\\useCabecalhoContext.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 35
+        },
+        "end": {
+          "line": 53,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 13,
+          "column": 6
+        },
+        "end": {
+          "line": 13,
+          "column": 34
+        }
+      },
+      "2": {
+        "start": {
+          "line": 15,
+          "column": 22
+        },
+        "end": {
+          "line": 15,
+          "column": 57
+        }
+      },
+      "3": {
+        "start": {
+          "line": 17,
+          "column": 17
+        },
+        "end": {
+          "line": 17,
+          "column": 30
+        }
+      },
+      "4": {
+        "start": {
+          "line": 19,
+          "column": 16
+        },
+        "end": {
+          "line": 19,
+          "column": 47
+        }
+      },
+      "5": {
+        "start": {
+          "line": 21,
+          "column": 52
+        },
+        "end": {
+          "line": 21,
+          "column": 75
+        }
+      },
+      "6": {
+        "start": {
+          "line": 23,
+          "column": 27
+        },
+        "end": {
+          "line": 25,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 24,
+          "column": 33
+        }
+      },
+      "8": {
+        "start": {
+          "line": 27,
+          "column": 25
+        },
+        "end": {
+          "line": 31,
+          "column": 3
+        }
+      },
+      "9": {
+        "start": {
+          "line": 28,
+          "column": 4
+        },
+        "end": {
+          "line": 28,
+          "column": 31
+        }
+      },
+      "10": {
+        "start": {
+          "line": 29,
+          "column": 4
+        },
+        "end": {
+          "line": 29,
+          "column": 31
+        }
+      },
+      "11": {
+        "start": {
+          "line": 30,
+          "column": 4
+        },
+        "end": {
+          "line": 30,
+          "column": 22
+        }
+      },
+      "12": {
+        "start": {
+          "line": 33,
+          "column": 26
+        },
+        "end": {
+          "line": 39,
+          "column": 3
+        }
+      },
+      "13": {
+        "start": {
+          "line": 34,
+          "column": 4
+        },
+        "end": {
+          "line": 34,
+          "column": 32
+        }
+      },
+      "14": {
+        "start": {
+          "line": 35,
+          "column": 4
+        },
+        "end": {
+          "line": 35,
+          "column": 39
+        }
+      },
+      "15": {
+        "start": {
+          "line": 36,
+          "column": 4
+        },
+        "end": {
+          "line": 36,
+          "column": 38
+        }
+      },
+      "16": {
+        "start": {
+          "line": 37,
+          "column": 4
+        },
+        "end": {
+          "line": 37,
+          "column": 43
+        }
+      },
+      "17": {
+        "start": {
+          "line": 38,
+          "column": 4
+        },
+        "end": {
+          "line": 38,
+          "column": 18
+        }
+      },
+      "18": {
+        "start": {
+          "line": 41,
+          "column": 2
+        },
+        "end": {
+          "line": 52,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 35
+          },
+          "end": {
+            "line": 5,
+            "column": 36
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 41
+          },
+          "end": {
+            "line": 53,
+            "column": 1
+          }
+        },
+        "line": 5
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 27
+          },
+          "end": {
+            "line": 23,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 33
+          },
+          "end": {
+            "line": 25,
+            "column": 3
+          }
+        },
+        "line": 23
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 27,
+            "column": 25
+          },
+          "end": {
+            "line": 27,
+            "column": 26
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 31
+          },
+          "end": {
+            "line": 31,
+            "column": 3
+          }
+        },
+        "line": 27
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 33,
+            "column": 26
+          },
+          "end": {
+            "line": 33,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 32
+          },
+          "end": {
+            "line": 39,
+            "column": 3
+          }
+        },
+        "line": 33
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 8,
+      "2": 8,
+      "3": 8,
+      "4": 8,
+      "5": 8,
+      "6": 8,
+      "7": 0,
+      "8": 8,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 8,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 8
+    },
+    "f": {
+      "0": 8,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "3e09223d7c6cf0df85f8fdac61af7bb66e08e75d"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\componentes\\Cabecalho\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\componentes\\Cabecalho\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 23,
+          "column": 6
+        },
+        "end": {
+          "line": 23,
+          "column": 27
+        }
+      },
+      "1": {
+        "start": {
+          "line": 25,
+          "column": 2
+        },
+        "end": {
+          "line": 80,
+          "column": 4
+        }
+      },
+      "2": {
+        "start": {
+          "line": 35,
+          "column": 31
+        },
+        "end": {
+          "line": 35,
+          "column": 59
+        }
+      },
+      "3": {
+        "start": {
+          "line": 39,
+          "column": 32
+        },
+        "end": {
+          "line": 39,
+          "column": 61
+        }
+      },
+      "4": {
+        "start": {
+          "line": 45,
+          "column": 31
+        },
+        "end": {
+          "line": 45,
+          "column": 56
+        }
+      },
+      "5": {
+        "start": {
+          "line": 49,
+          "column": 32
+        },
+        "end": {
+          "line": 49,
+          "column": 58
+        }
+      },
+      "6": {
+        "start": {
+          "line": 63,
+          "column": 31
+        },
+        "end": {
+          "line": 63,
+          "column": 48
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Cabecalho",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 24
+          },
+          "end": {
+            "line": 11,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 44
+          },
+          "end": {
+            "line": 81,
+            "column": 1
+          }
+        },
+        "line": 11
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 35,
+            "column": 25
+          },
+          "end": {
+            "line": 35,
+            "column": 26
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 31
+          },
+          "end": {
+            "line": 35,
+            "column": 59
+          }
+        },
+        "line": 35
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 39,
+            "column": 26
+          },
+          "end": {
+            "line": 39,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 32
+          },
+          "end": {
+            "line": 39,
+            "column": 61
+          }
+        },
+        "line": 39
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 45,
+            "column": 25
+          },
+          "end": {
+            "line": 45,
+            "column": 26
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 45,
+            "column": 31
+          },
+          "end": {
+            "line": 45,
+            "column": 56
+          }
+        },
+        "line": 45
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 49,
+            "column": 26
+          },
+          "end": {
+            "line": 49,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 49,
+            "column": 32
+          },
+          "end": {
+            "line": 49,
+            "column": 58
+          }
+        },
+        "line": 49
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 63,
+            "column": 25
+          },
+          "end": {
+            "line": 63,
+            "column": 26
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 63,
+            "column": 31
+          },
+          "end": {
+            "line": 63,
+            "column": 48
+          }
+        },
+        "line": 63
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 29,
+            "column": 9
+          },
+          "end": {
+            "line": 54,
+            "column": 9
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 29,
+              "column": 9
+            },
+            "end": {
+              "line": 29,
+              "column": 27
+            }
+          },
+          {
+            "start": {
+              "line": 30,
+              "column": 10
+            },
+            "end": {
+              "line": 53,
+              "column": 13
+            }
+          }
+        ],
+        "line": 29
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 55,
+            "column": 9
+          },
+          "end": {
+            "line": 77,
+            "column": 9
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 55,
+              "column": 9
+            },
+            "end": {
+              "line": 55,
+              "column": 26
+            }
+          },
+          {
+            "start": {
+              "line": 56,
+              "column": 10
+            },
+            "end": {
+              "line": 76,
+              "column": 16
+            }
+          }
+        ],
+        "line": 55
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 68,
+            "column": 15
+          },
+          "end": {
+            "line": 74,
+            "column": 15
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 68,
+              "column": 15
+            },
+            "end": {
+              "line": 68,
+              "column": 26
+            }
+          },
+          {
+            "start": {
+              "line": 69,
+              "column": 16
+            },
+            "end": {
+              "line": 73,
+              "column": 18
+            }
+          }
+        ],
+        "line": 68
+      }
+    },
+    "s": {
+      "0": 8,
+      "1": 8,
+      "2": 2,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "f": {
+      "0": 8,
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "b": {
+      "0": [
+        8,
+        8
+      ],
+      "1": [
+        8,
+        0
+      ],
+      "2": [
+        0,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f9294454b1f0f1b342fa050a74f083b6851e8151"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\componentes\\Rodape\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\componentes\\Rodape\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 40,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Rodape",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 24
+          },
+          "end": {
+            "line": 9,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 33
+          },
+          "end": {
+            "line": 41,
+            "column": 1
+          }
+        },
+        "line": 9
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 4
+    },
+    "f": {
+      "0": 4
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "fde6a5a8ab21831ccfec27be84a949587c195e7d"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\PaginaPadrao\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\PaginaPadrao\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 19
+        },
+        "end": {
+          "line": 6,
+          "column": 32
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "PaginaPadrao",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 24
+          },
+          "end": {
+            "line": 5,
+            "column": 36
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 39
+          },
+          "end": {
+            "line": 15,
+            "column": 1
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 77
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 12,
+              "column": 8
+            },
+            "end": {
+              "line": 12,
+              "column": 33
+            }
+          },
+          {
+            "start": {
+              "line": 12,
+              "column": 37
+            },
+            "end": {
+              "line": 12,
+              "column": 62
+            }
+          },
+          {
+            "start": {
+              "line": 12,
+              "column": 67
+            },
+            "end": {
+              "line": 12,
+              "column": 77
+            }
+          }
+        ],
+        "line": 12
+      }
+    },
+    "s": {
+      "0": 4,
+      "1": 4
+    },
+    "f": {
+      "0": 4
+    },
+    "b": {
+      "0": [
+        4,
+        0,
+        4
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "7b64c0a06e2084ac13c90951ea70feb389feceb9"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Extrato\\Transacoes\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Extrato\\Transacoes\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 24,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Transacoes",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 24
+          },
+          "end": {
+            "line": 3,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 59
+          },
+          "end": {
+            "line": 25,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 7
+          },
+          "end": {
+            "line": 21,
+            "column": 7
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 12,
+              "column": 8
+            },
+            "end": {
+              "line": 15,
+              "column": 41
+            }
+          },
+          {
+            "start": {
+              "line": 17,
+              "column": 8
+            },
+            "end": {
+              "line": 20,
+              "column": 40
+            }
+          }
+        ],
+        "line": 11
+      }
+    },
+    "s": {
+      "0": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {
+      "0": [
+        0,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "1b596c0354a18d63abbc50214da3e74ce408de91"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Extrato\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Extrato\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 17,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 11,
+          "column": 10
+        },
+        "end": {
+          "line": 13,
+          "column": 12
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Extrato",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 24
+          },
+          "end": {
+            "line": 5,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 48
+          },
+          "end": {
+            "line": 18,
+            "column": 1
+          }
+        },
+        "line": 5
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 24
+          },
+          "end": {
+            "line": 10,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 47
+          },
+          "end": {
+            "line": 14,
+            "column": 9
+          }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0,
+      "1": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "971bb52079706881f678aaf4e586c070d66f360d"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Menu\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Menu\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 18
+        },
+        "end": {
+          "line": 11,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 14,
+          "column": 2
+        },
+        "end": {
+          "line": 34,
+          "column": 4
+        }
+      },
+      "2": {
+        "start": {
+          "line": 17,
+          "column": 8
+        },
+        "end": {
+          "line": 31,
+          "column": 10
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Menu",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 24
+          },
+          "end": {
+            "line": 13,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 39
+          },
+          "end": {
+            "line": 35,
+            "column": 1
+          }
+        },
+        "line": 13
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 21
+          },
+          "end": {
+            "line": 16,
+            "column": 22
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 39
+          },
+          "end": {
+            "line": 32,
+            "column": 7
+          }
+        },
+        "line": 16
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 16
+          },
+          "end": {
+            "line": 22,
+            "column": 55
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 22,
+              "column": 16
+            },
+            "end": {
+              "line": 22,
+              "column": 34
+            }
+          },
+          {
+            "start": {
+              "line": 22,
+              "column": 38
+            },
+            "end": {
+              "line": 22,
+              "column": 55
+            }
+          }
+        ],
+        "line": 22
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 13
+          },
+          "end": {
+            "line": 29,
+            "column": 13
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 27,
+              "column": 13
+            },
+            "end": {
+              "line": 27,
+              "column": 44
+            }
+          },
+          {
+            "start": {
+              "line": 28,
+              "column": 14
+            },
+            "end": {
+              "line": 28,
+              "column": 49
+            }
+          }
+        ],
+        "line": 27
+      }
+    },
+    "s": {
+      "0": 2,
+      "1": 0,
+      "2": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0
+    },
+    "b": {
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        0,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f2708e20eee483f700ca7e8db87820e06eb65ea1"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Principal\\Saldo\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Principal\\Saldo\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Saldo",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 24
+          },
+          "end": {
+            "line": 5,
+            "column": 29
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 41
+          },
+          "end": {
+            "line": 17,
+            "column": 1
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "78d5f5b23b8068f1b7ea26b7d2db5d44ae5d8ef6"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Principal\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Principal\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 13
+        },
+        "end": {
+          "line": 6,
+          "column": 23
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 13
+        },
+        "end": {
+          "line": 7,
+          "column": 27
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 21
+        },
+        "end": {
+          "line": 16,
+          "column": 1
+        }
+      },
+      "3": {
+        "start": {
+          "line": 19,
+          "column": 2
+        },
+        "end": {
+          "line": 34,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Principal",
+        "decl": {
+          "start": {
+            "line": 18,
+            "column": 24
+          },
+          "end": {
+            "line": 18,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 45
+          },
+          "end": {
+            "line": 35,
+            "column": 1
+          }
+        },
+        "line": 18
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 2,
+      "2": 2,
+      "3": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "66978ad3b2dd13fd13d7182723b974a4260df279"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\NovaTransacao\\Formulario\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\NovaTransacao\\Formulario\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 28
+        },
+        "end": {
+          "line": 5,
+          "column": 70
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 28
+        },
+        "end": {
+          "line": 8,
+          "column": 36
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 31
+        },
+        "end": {
+          "line": 9,
+          "column": 58
+        }
+      },
+      "3": {
+        "start": {
+          "line": 10,
+          "column": 4
+        },
+        "end": {
+          "line": 10,
+          "column": 33
+        }
+      },
+      "4": {
+        "start": {
+          "line": 14,
+          "column": 4
+        },
+        "end": {
+          "line": 14,
+          "column": 23
+        }
+      },
+      "5": {
+        "start": {
+          "line": 15,
+          "column": 26
+        },
+        "end": {
+          "line": 15,
+          "column": 64
+        }
+      },
+      "6": {
+        "start": {
+          "line": 16,
+          "column": 25
+        },
+        "end": {
+          "line": 18,
+          "column": 6
+        }
+      },
+      "7": {
+        "start": {
+          "line": 19,
+          "column": 4
+        },
+        "end": {
+          "line": 23,
+          "column": 7
+        }
+      },
+      "8": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 24,
+          "column": 38
+        }
+      },
+      "9": {
+        "start": {
+          "line": 27,
+          "column": 2
+        },
+        "end": {
+          "line": 68,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Formulario",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 58
+          },
+          "end": {
+            "line": 69,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "handleChange",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 11
+          },
+          "end": {
+            "line": 7,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 27
+          },
+          "end": {
+            "line": 11,
+            "column": 3
+          }
+        },
+        "line": 7
+      },
+      "2": {
+        "name": "handleSubmit",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 11
+          },
+          "end": {
+            "line": 13,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 27
+          },
+          "end": {
+            "line": 25,
+            "column": 3
+          }
+        },
+        "line": 13
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "4bbe49ad01a50e0a403d2274db22623eb8f3458d"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\NovaTransacao\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\NovaTransacao\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Transacao",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 24
+          },
+          "end": {
+            "line": 6,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 57
+          },
+          "end": {
+            "line": 17,
+            "column": 1
+          }
+        },
+        "line": 6
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "8faa47ce4c16b748ec32cc769fb9bd70b2d4993d"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\services\\transacoes.js": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\services\\transacoes.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 17
+        },
+        "end": {
+          "line": 4,
+          "column": 47
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 17
+        },
+        "end": {
+          "line": 6,
+          "column": 62
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "end": {
+          "line": 7,
+          "column": 21
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 14
+        }
+      },
+      "5": {
+        "start": {
+          "line": 14,
+          "column": 17
+        },
+        "end": {
+          "line": 14,
+          "column": 47
+        }
+      },
+      "6": {
+        "start": {
+          "line": 15,
+          "column": 2
+        },
+        "end": {
+          "line": 20,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 16,
+          "column": 17
+        },
+        "end": {
+          "line": 16,
+          "column": 78
+        }
+      },
+      "8": {
+        "start": {
+          "line": 17,
+          "column": 4
+        },
+        "end": {
+          "line": 17,
+          "column": 23
+        }
+      },
+      "9": {
+        "start": {
+          "line": 19,
+          "column": 4
+        },
+        "end": {
+          "line": 19,
+          "column": 32
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "buscaTransacoes",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 22
+          },
+          "end": {
+            "line": 3,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 40
+          },
+          "end": {
+            "line": 11,
+            "column": 1
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "salvaTransacao",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 22
+          },
+          "end": {
+            "line": 13,
+            "column": 36
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 52
+          },
+          "end": {
+            "line": 21,
+            "column": 1
+          }
+        },
+        "line": 13
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 0,
+      "4": 4,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    },
+    "f": {
+      "0": 4,
+      "1": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "68b37a94e5aeb4f64e2e664b4edeba949ee98e34"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\hooks\\useListaTransacoes.js": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\hooks\\useListaTransacoes.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 38
+        },
+        "end": {
+          "line": 5,
+          "column": 50
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 23
+        },
+        "end": {
+          "line": 8,
+          "column": 46
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 30
+        }
+      },
+      "3": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": 9
+        }
+      },
+      "4": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 13,
+          "column": 22
+        }
+      },
+      "5": {
+        "start": {
+          "line": 16,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 37
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "useListaTransacoes",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 42
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 45
+          },
+          "end": {
+            "line": 17,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "listaTransacoes",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 17
+          },
+          "end": {
+            "line": 7,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 35
+          },
+          "end": {
+            "line": 10,
+            "column": 3
+          }
+        },
+        "line": 7
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 12
+          },
+          "end": {
+            "line": 12,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 18
+          },
+          "end": {
+            "line": 14,
+            "column": 3
+          }
+        },
+        "line": 12
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 14,
+      "1": 4,
+      "2": 4,
+      "3": 14,
+      "4": 4,
+      "5": 14
+    },
+    "f": {
+      "0": 14,
+      "1": 4,
+      "2": 4
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ea28ed223de75bb6d04188f8a1843919f8abb9c5"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\services\\saldo.js": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\services\\saldo.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 17
+        },
+        "end": {
+          "line": 4,
+          "column": 47
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 17
+        },
+        "end": {
+          "line": 6,
+          "column": 56
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "end": {
+          "line": 7,
+          "column": 21
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 16
+        }
+      },
+      "5": {
+        "start": {
+          "line": 14,
+          "column": 17
+        },
+        "end": {
+          "line": 14,
+          "column": 47
+        }
+      },
+      "6": {
+        "start": {
+          "line": 15,
+          "column": 2
+        },
+        "end": {
+          "line": 18,
+          "column": 38
+        }
+      },
+      "7": {
+        "start": {
+          "line": 17,
+          "column": 20
+        },
+        "end": {
+          "line": 17,
+          "column": 44
+        }
+      },
+      "8": {
+        "start": {
+          "line": 18,
+          "column": 20
+        },
+        "end": {
+          "line": 18,
+          "column": 36
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "buscaSaldo",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 22
+          },
+          "end": {
+            "line": 3,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 35
+          },
+          "end": {
+            "line": 11,
+            "column": 1
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "atualizaSaldo",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 22
+          },
+          "end": {
+            "line": 13,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 47
+          },
+          "end": {
+            "line": 19,
+            "column": 1
+          }
+        },
+        "line": 13
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 10
+          },
+          "end": {
+            "line": 17,
+            "column": 11
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 20
+          },
+          "end": {
+            "line": 17,
+            "column": 44
+          }
+        },
+        "line": 17
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 18,
+            "column": 11
+          },
+          "end": {
+            "line": 18,
+            "column": 12
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 20
+          },
+          "end": {
+            "line": 18,
+            "column": 36
+          }
+        },
+        "line": 18
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 6,
+      "1": 6,
+      "2": 6,
+      "3": 0,
+      "4": 6,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
+    },
+    "f": {
+      "0": 6,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "8e10e02c5e4d255293449d5d6005a16fd0716386"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\hooks\\useSaldo.js": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\hooks\\useSaldo.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 28
+        },
+        "end": {
+          "line": 5,
+          "column": 39
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 4
+        },
+        "end": {
+          "line": 8,
+          "column": 33
+        }
+      },
+      "2": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 13,
+          "column": 14
+        }
+      },
+      "3": {
+        "start": {
+          "line": 12,
+          "column": 4
+        },
+        "end": {
+          "line": 12,
+          "column": 17
+        }
+      },
+      "4": {
+        "start": {
+          "line": 15,
+          "column": 2
+        },
+        "end": {
+          "line": 15,
+          "column": 27
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "useSaldo",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 35
+          },
+          "end": {
+            "line": 16,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "obtemSaldo",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 17
+          },
+          "end": {
+            "line": 7,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 30
+          },
+          "end": {
+            "line": 9,
+            "column": 3
+          }
+        },
+        "line": 7
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 12
+          },
+          "end": {
+            "line": 11,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 18
+          },
+          "end": {
+            "line": 13,
+            "column": 3
+          }
+        },
+        "line": 11
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 14,
+      "1": 6,
+      "2": 14,
+      "3": 6,
+      "4": 14
+    },
+    "f": {
+      "0": 14,
+      "1": 6,
+      "2": 6
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "65c91a32643485160aabe2b2ee66da375447415f"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\context\\HomeContext.js": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\context\\HomeContext.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 27
+        },
+        "end": {
+          "line": 5,
+          "column": 42
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 28
+        },
+        "end": {
+          "line": 18,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 28
+        },
+        "end": {
+          "line": 8,
+          "column": 38
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 38
+        },
+        "end": {
+          "line": 9,
+          "column": 58
+        }
+      },
+      "4": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 17,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 28
+          },
+          "end": {
+            "line": 7,
+            "column": 29
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 46
+          },
+          "end": {
+            "line": 18,
+            "column": 1
+          }
+        },
+        "line": 7
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 2,
+      "2": 14,
+      "3": 14,
+      "4": 14
+    },
+    "f": {
+      "0": 14
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "dc5108ee4e17692e8047ca81c4c19b182c2e9999"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\utils\\index.js": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\utils\\index.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 32
+        },
+        "end": {
+          "line": 7,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 2,
+          "column": 2
+        },
+        "end": {
+          "line": 6,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 4
+        },
+        "end": {
+          "line": 3,
+          "column": 43
+        }
+      },
+      "3": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "end": {
+          "line": 5,
+          "column": 43
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 32
+          },
+          "end": {
+            "line": 1,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 52
+          },
+          "end": {
+            "line": 7,
+            "column": 1
+          }
+        },
+        "line": 1
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 2
+          },
+          "end": {
+            "line": 6,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 2,
+              "column": 2
+            },
+            "end": {
+              "line": 6,
+              "column": 3
+            }
+          },
+          {
+            "start": {
+              "line": 2,
+              "column": 2
+            },
+            "end": {
+              "line": 6,
+              "column": 3
+            }
+          }
+        ],
+        "line": 2
+      }
+    },
+    "s": {
+      "0": 2,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {
+      "0": [
+        0,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "55aed2e077ca8214a2cacfcb663f05e0099d7cb3"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\hooks\\useHomeContext.js": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\common\\hooks\\useHomeContext.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 30
+        },
+        "end": {
+          "line": 24,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 9,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 27
+        }
+      },
+      "2": {
+        "start": {
+          "line": 12,
+          "column": 22
+        },
+        "end": {
+          "line": 12,
+          "column": 54
+        }
+      },
+      "3": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 13,
+          "column": 24
+        }
+      },
+      "4": {
+        "start": {
+          "line": 14,
+          "column": 4
+        },
+        "end": {
+          "line": 14,
+          "column": 29
+        }
+      },
+      "5": {
+        "start": {
+          "line": 15,
+          "column": 4
+        },
+        "end": {
+          "line": 15,
+          "column": 44
+        }
+      },
+      "6": {
+        "start": {
+          "line": 16,
+          "column": 4
+        },
+        "end": {
+          "line": 16,
+          "column": 28
+        }
+      },
+      "7": {
+        "start": {
+          "line": 19,
+          "column": 2
+        },
+        "end": {
+          "line": 23,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 30
+          },
+          "end": {
+            "line": 7,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 36
+          },
+          "end": {
+            "line": 24,
+            "column": 1
+          }
+        },
+        "line": 7
+      },
+      "1": {
+        "name": "realizarTransacao",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 11
+          },
+          "end": {
+            "line": 11,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 38
+          },
+          "end": {
+            "line": 17,
+            "column": 3
+          }
+        },
+        "line": 11
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "97a797ea1cce4366ad3f022fab577379635e861a"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 11,
+          "column": 51
+        },
+        "end": {
+          "line": 11,
+          "column": 67
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 19
+        },
+        "end": {
+          "line": 12,
+          "column": 32
+        }
+      },
+      "2": {
+        "start": {
+          "line": 14,
+          "column": 2
+        },
+        "end": {
+          "line": 31,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Home",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 24
+          },
+          "end": {
+            "line": 10,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 31
+          },
+          "end": {
+            "line": 32,
+            "column": 1
+          }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 11
+          },
+          "end": {
+            "line": 22,
+            "column": 11
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 20,
+              "column": 11
+            },
+            "end": {
+              "line": 20,
+              "column": 40
+            }
+          },
+          {
+            "start": {
+              "line": 21,
+              "column": 12
+            },
+            "end": {
+              "line": 21,
+              "column": 67
+            }
+          }
+        ],
+        "line": 20
+      }
+    },
+    "s": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {
+      "0": [
+        0,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "a964c5345c69a5beae034175a451dd2ef398e696"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Cartoes\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Cartoes\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 33,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Cartoes",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 24
+          },
+          "end": {
+            "line": 6,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 34
+          },
+          "end": {
+            "line": 34,
+            "column": 1
+          }
+        },
+        "line": 6
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "b1a97d9ec9c5ca45939595a8186ba543b3e47087"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Investimentos\\Box\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Investimentos\\Box\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Box",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 24
+          },
+          "end": {
+            "line": 3,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 35
+          },
+          "end": {
+            "line": 10,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "b5d94f1426170e77c29b1eb775c976535938210d"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Investimentos\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Investimentos\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 30,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Investimentos",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 24
+          },
+          "end": {
+            "line": 6,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 40
+          },
+          "end": {
+            "line": 31,
+            "column": 1
+          }
+        },
+        "line": 6
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "e071f8fd8f7ea9eca65e58d6426f89a13a530174"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Servicos\\Icone\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Servicos\\Icone\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Icone",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 24
+          },
+          "end": {
+            "line": 3,
+            "column": 29
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 50
+          },
+          "end": {
+            "line": 10,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "c886fa84d92ba31c122dab7cfba66e2ac3ce4b23"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Servicos\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Home\\Servicos\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 17,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 10
+        },
+        "end": {
+          "line": 12,
+          "column": 79
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Servicos",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 24
+          },
+          "end": {
+            "line": 6,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 35
+          },
+          "end": {
+            "line": 18,
+            "column": 1
+          }
+        },
+        "line": 6
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 20
+          },
+          "end": {
+            "line": 11,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 31
+          },
+          "end": {
+            "line": 13,
+            "column": 9
+          }
+        },
+        "line": 11
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0,
+      "1": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "dadb8aba8beb3be236d7e602ed33f78b38638b0d"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Inicio\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Inicio\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "end": {
+          "line": 69,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Inicio",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 24
+          },
+          "end": {
+            "line": 11,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 33
+          },
+          "end": {
+            "line": 70,
+            "column": 1
+          }
+        },
+        "line": 11
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 4
+    },
+    "f": {
+      "0": 4
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "e9523681eb4baca9ff53b8694e6ce6615ee197a1"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Pagina404\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\Pagina404\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 27,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Pagina404",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 24
+          },
+          "end": {
+            "line": 8,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 36
+          },
+          "end": {
+            "line": 28,
+            "column": 1
+          }
+        },
+        "line": 8
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "2f3279aa42f6e412bc977f351291cc6fd2a6b221"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\MinhaConta\\FormConta\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\MinhaConta\\FormConta\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 25
+        },
+        "end": {
+          "line": 77,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 4
+        },
+        "end": {
+          "line": 12,
+          "column": 33
+        }
+      },
+      "2": {
+        "start": {
+          "line": 14,
+          "column": 19
+        },
+        "end": {
+          "line": 14,
+          "column": 32
+        }
+      },
+      "3": {
+        "start": {
+          "line": 15,
+          "column": 17
+        },
+        "end": {
+          "line": 15,
+          "column": 47
+        }
+      },
+      "4": {
+        "start": {
+          "line": 17,
+          "column": 2
+        },
+        "end": {
+          "line": 76,
+          "column": 4
+        }
+      },
+      "5": {
+        "start": {
+          "line": 28,
+          "column": 12
+        },
+        "end": {
+          "line": 34,
+          "column": 13
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 25
+          },
+          "end": {
+            "line": 10,
+            "column": 26
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 31
+          },
+          "end": {
+            "line": 77,
+            "column": 1
+          }
+        },
+        "line": 10
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 27,
+            "column": 20
+          },
+          "end": {
+            "line": 27,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 12
+          },
+          "end": {
+            "line": 34,
+            "column": 13
+          }
+        },
+        "line": 28
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 46,
+            "column": 11
+          },
+          "end": {
+            "line": 50,
+            "column": 11
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 47,
+              "column": 12
+            },
+            "end": {
+              "line": 47,
+              "column": 65
+            }
+          },
+          {
+            "start": {
+              "line": 49,
+              "column": 12
+            },
+            "end": {
+              "line": 49,
+              "column": 14
+            }
+          }
+        ],
+        "line": 46
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 59,
+            "column": 11
+          },
+          "end": {
+            "line": 63,
+            "column": 11
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 60,
+              "column": 12
+            },
+            "end": {
+              "line": 60,
+              "column": 65
+            }
+          },
+          {
+            "start": {
+              "line": 62,
+              "column": 12
+            },
+            "end": {
+              "line": 62,
+              "column": 14
+            }
+          }
+        ],
+        "line": 59
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 66,
+            "column": 22
+          },
+          "end": {
+            "line": 66,
+            "column": 64
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 66,
+              "column": 52
+            },
+            "end": {
+              "line": 66,
+              "column": 56
+            }
+          },
+          {
+            "start": {
+              "line": 66,
+              "column": 59
+            },
+            "end": {
+              "line": 66,
+              "column": 64
+            }
+          }
+        ],
+        "line": 66
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 66,
+            "column": 22
+          },
+          "end": {
+            "line": 66,
+            "column": 49
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 66,
+              "column": 22
+            },
+            "end": {
+              "line": 66,
+              "column": 33
+            }
+          },
+          {
+            "start": {
+              "line": 66,
+              "column": 37
+            },
+            "end": {
+              "line": 66,
+              "column": 49
+            }
+          }
+        ],
+        "line": 66
+      }
+    },
+    "s": {
+      "0": 2,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0
+    },
+    "b": {
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        0,
+        0
+      ],
+      "2": [
+        0,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "9668baa38a6caf5882aa0ac84a01cb29976c0aae"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\MinhaConta\\index.jsx": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\paginas\\MinhaConta\\index.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 26
+        },
+        "end": {
+          "line": 15,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 19
+        },
+        "end": {
+          "line": 8,
+          "column": 32
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 26
+          },
+          "end": {
+            "line": 7,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 32
+          },
+          "end": {
+            "line": 15,
+            "column": 1
+          }
+        },
+        "line": 7
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 0,
+      "2": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "7d9e1a46d1042288c008a2e2558777a51107723a"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\routes.js": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\routes.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 16,
+          "column": 2
+        },
+        "end": {
+          "line": 35,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "AppRoutes",
+        "decl": {
+          "start": {
+            "line": 15,
+            "column": 24
+          },
+          "end": {
+            "line": 15,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 36
+          },
+          "end": {
+            "line": 36,
+            "column": 1
+          }
+        },
+        "line": 15
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 4
+    },
+    "f": {
+      "0": 4
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "b9cfb72d0b857ba89758d4f8097ec31f18deffcf"
+  },
+  "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\index.js": {
+    "path": "C:\\Users\\Leny\\Documents\\bytebank-v1\\src\\index.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 13
+        },
+        "end": {
+          "line": 7,
+          "column": 65
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 2
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 2
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "0bcf43f5f33fa24d7064588a3e1716c0f1a841af"
+  }
+}

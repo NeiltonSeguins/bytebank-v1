@@ -12,7 +12,7 @@ describe('Jornada do usuário', () => {
     cy.getByData('form-input').type('80');
     cy.getByData('realiza-transacao').click();
 
-    cy.getByData('app-home').find('a').eq(3).click();
+    cy.getByData('app-home').find('a').eq(4).click();
     cy.location('pathname').should('eq', '/home/investimentos');
 
     cy.getByData('botao-sair').click();
